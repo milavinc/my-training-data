@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-14T17:58:24.936148",
+    "last_updated": "2026-03-14T21:00:00.357883",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -144,8 +144,8 @@
         "run": {
           "lthr": 174,
           "max_hr": 192,
-          "threshold_pace": null,
-          "pace_units": null,
+          "threshold_pace": 4.7619047,
+          "pace_units": "MINS_KM",
           "ftp": null,
           "ftp_indoor": null
         },
@@ -160,7 +160,7 @@
       }
     },
     "current_metrics": {
-      "weight_kg": 72.0,
+      "weight_kg": 71.0,
       "resting_hr": 43,
       "hrv": 80.0,
       "sleep_quality": 2,
@@ -319,12 +319,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
+          "planned_tss_delta": 0.68,
           "hard_sessions_planned": 0,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 0.2
+          "plan_coverage_current_week": 0.2,
+          "plan_coverage_next_week": 0.0
         },
         "data_quality": "mixed",
         "stream_agreement": null
@@ -359,7 +359,7 @@
     "p_max": 451,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-14T17:58:24.935259",
+    "calculation_timestamp": "2026-03-14T21:00:00.357005",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -721,7 +721,7 @@
       "resting_hr": 42,
       "hrv_rmssd": 76.0,
       "hrv_sdnn": null,
-      "sleep_hours": 8.54,
+      "sleep_hours": 8.53,
       "sleep_formatted": "8h32m",
       "sleep_quality": 1,
       "sleep_score": 90.0,
@@ -786,7 +786,7 @@
       "hrv_rmssd": 79.0,
       "hrv_sdnn": null,
       "sleep_hours": 8.33,
-      "sleep_formatted": "8h19m",
+      "sleep_formatted": "8h20m",
       "sleep_quality": 1,
       "sleep_score": 99.0,
       "mental_energy": null,
@@ -797,7 +797,7 @@
     },
     {
       "date": "2026-03-14",
-      "weight_kg": null,
+      "weight_kg": 71.0,
       "resting_hr": 43,
       "hrv_rmssd": 80.0,
       "hrv_sdnn": null,
@@ -814,15 +814,15 @@
   ],
   "planned_workouts": [
     {
-      "id": 98072900,
-      "date": "2026-03-20",
-      "name": "basket",
+      "id": 98510344,
+      "date": "2026-03-15",
+      "name": "Endurance Ride",
       "type": "WORKOUT",
-      "planned_tss": null,
+      "planned_tss": 60,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": null,
-      "description": "1x\n- 90 Z4 HR\n-"
+      "description": ""
     },
     {
       "id": 98072901,
@@ -863,7 +863,7 @@
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 4,
+    "bail_no_workout_doc": 3,
     "bail_no_match": 0
   },
   "weekly_summary": {
