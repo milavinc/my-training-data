@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-16T15:48:50.521197",
+    "last_updated": "2026-03-16T19:38:52.488070",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -330,9 +330,9 @@
           "planned_tss_delta": 1.18,
           "hard_sessions_planned": 0,
           "race_proximity": null,
-          "next_week_load": 1.11,
+          "next_week_load": 1.27,
           "plan_coverage_current_week": 1.2,
-          "plan_coverage_next_week": 1.6
+          "plan_coverage_next_week": 1.8
         },
         "data_quality": "mixed",
         "stream_agreement": null
@@ -367,7 +367,7 @@
     "p_max": 450,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 64.0,
-    "calculation_timestamp": "2026-03-16T15:48:50.520275",
+    "calculation_timestamp": "2026-03-16T19:38:52.487085",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -950,6 +950,17 @@
       "duration_formatted": "1h30m",
       "workout_summary": null,
       "description_preview": "1x\n- 90m basketball training steady hard court session"
+    },
+    {
+      "id": 98958143,
+      "date": "2026-03-28",
+      "name": "basket match",
+      "type": "WORKOUT",
+      "planned_tss": 50,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description_preview": null
     },
     {
       "id": 98850336,
