@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-16T09:48:26.384238",
+    "last_updated": "2026-03-16T12:03:33.581080",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -144,11 +144,11 @@
       "vo2max": 64.0,
       "sports": {
         "cycling": {
-          "lthr": 174,
+          "lthr": 171,
           "max_hr": 192,
           "threshold_pace": null,
           "pace_units": null,
-          "ftp": 250,
+          "ftp": 270,
           "ftp_indoor": null
         },
         "run": {
@@ -299,16 +299,14 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.25,
+    "consistency_index": 0.5,
     "consistency_details": {
-      "planned_days": 4,
+      "planned_days": 2,
       "completed_days": 2,
       "matched_days": 1,
       "planned_dates": [
         "2026-03-10",
-        "2026-03-12",
-        "2026-03-13",
-        "2026-03-15"
+        "2026-03-12"
       ],
       "completed_dates": [
         "2026-03-11",
@@ -329,12 +327,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.12,
+          "planned_tss_delta": 1.18,
           "hard_sessions_planned": 0,
           "race_proximity": null,
-          "next_week_load": 0.7,
+          "next_week_load": 1.11,
           "plan_coverage_current_week": 1.2,
-          "plan_coverage_next_week": 1.2
+          "plan_coverage_next_week": 1.6
         },
         "data_quality": "mixed",
         "stream_agreement": null
@@ -357,7 +355,7 @@
       "seasonal_expected": null
     },
     "benchmark_outdoor": {
-      "current_ftp": 250,
+      "current_ftp": 270,
       "ftp_8_weeks_ago": null,
       "benchmark_index": null,
       "benchmark_percentage": null,
@@ -369,16 +367,16 @@
     "p_max": 450,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 64.0,
-    "calculation_timestamp": "2026-03-16T09:48:26.014951",
+    "calculation_timestamp": "2026-03-16T12:03:33.580180",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 7,
       "activities_28d": 36,
-      "planned_workouts_7d": 4,
+      "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
-        "outdoor": 0
+        "outdoor": 2
       }
     }
   },
@@ -879,112 +877,207 @@
       "description": "1x\n- 180m alpine ski day mostly easy to moderate finish fresh"
     },
     {
-      "id": 98517583,
+      "id": 98857259,
       "date": "2026-03-21",
-      "name": "Basketball Cardio Training",
+      "name": "Basket Match",
       "type": "WORKOUT",
-      "planned_tss": 45,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
+      "planned_tss": 65,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
       "workout_summary": null,
-      "description": "1x\n- 60m basketball cardio session controlled hard effort avoid extra plyometric load"
+      "description": "1x\n- 90m basketball match competitive effort treat as the day's only hard session"
     },
     {
-      "id": 98518448,
+      "id": 98850331,
       "date": "2026-03-23",
-      "name": "Easy Aerobic Run",
+      "name": "Reset Spin After Ski + Travel",
       "type": "WORKOUT",
-      "planned_tss": 30,
+      "planned_tss": 19,
       "duration_hours": 0.75,
       "duration_formatted": "45m",
       "workout_summary": null,
-      "description": "1x\n- 45m Z1-Z2 HR easy run"
+      "description": "1x\n- 45m 45-55% FTP easy spin keep cadence smooth and pressure low"
     },
     {
-      "id": 98518449,
+      "id": 98850332,
       "date": "2026-03-24",
-      "name": "Endurance Ride Z2",
+      "name": "Easy Aerobic Run",
       "type": "WORKOUT",
-      "planned_tss": 42,
+      "planned_tss": 32,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "description_preview": "1x\n- 45m Z1-Z2 HR easy aerobic run keep the knee fully conversational and relaxed"
+    },
+    {
+      "id": 98857256,
+      "date": "2026-03-24",
+      "name": "Basketball Training",
+      "type": "WORKOUT",
+      "planned_tss": 50,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description_preview": "1x\n- 90m basketball training steady hard court session"
+    },
+    {
+      "id": 98850333,
+      "date": "2026-03-25",
+      "name": "10K Cruise Intervals 5x4",
+      "type": "WORKOUT",
+      "planned_tss": 59,
       "duration_hours": 1.0,
       "duration_formatted": "1h",
+      "workout_summary": "5\u00d74m / 2m rec | 15m"
+    },
+    {
+      "id": 98850335,
+      "date": "2026-03-26",
+      "name": "Sweet Spot Rebuild 3x10",
+      "type": "WORKOUT",
+      "planned_tss": 66,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": "3\u00d710m @242W / 5m rec"
+    },
+    {
+      "id": 98857258,
+      "date": "2026-03-27",
+      "name": "Basketball Training",
+      "type": "WORKOUT",
+      "planned_tss": 50,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description_preview": "1x\n- 90m basketball training steady hard court session"
+    },
+    {
+      "id": 98850336,
+      "date": "2026-03-29",
+      "name": "Long Easy Run",
+      "type": "WORKOUT",
+      "planned_tss": 46,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": null,
+      "description_preview": "1x\n- 70m Z1-Z2 HR easy long run hold form and back off at first knee warning"
+    },
+    {
+      "id": 98850337,
+      "date": "2026-03-29",
+      "name": "Sunday Recovery Spin",
+      "type": "WORKOUT",
+      "planned_tss": 19,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "description_preview": "1x\n- 45m 45-55% FTP easy recovery spin later in the day keep it light and loosen the legs"
+    },
+    {
+      "id": 98850338,
+      "date": "2026-03-31",
+      "name": "Easy Run + Strides",
+      "type": "WORKOUT",
+      "planned_tss": 28,
+      "duration_hours": 0.9,
+      "duration_formatted": "54m",
+      "workout_summary": "6\u00d720s / 1m10s rec"
+    },
+    {
+      "id": 98857260,
+      "date": "2026-03-31",
+      "name": "Basketball Training",
+      "type": "WORKOUT",
+      "planned_tss": 50,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description_preview": "1x\n- 90m basketball training steady hard court session"
+    },
+    {
+      "id": 98853747,
+      "date": "2026-04-01",
+      "name": "Over-Under 3x12 (FTP 265)",
+      "type": "WORKOUT",
+      "planned_tss": 105,
+      "duration_hours": 1.57,
+      "duration_formatted": "1h34m",
+      "workout_summary": "20m @170W | 4\u00d72m @256W / 1m rec | 8m @163W | 4\u00d72m @256W / 1m rec | 8m @163W | 4\u00d72m @256W / 1m rec | 10m @188W | 12m @142W"
+    },
+    {
+      "id": 98850340,
+      "date": "2026-04-02",
+      "name": "Aerobic Run",
+      "type": "WORKOUT",
+      "planned_tss": 40,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description_preview": "1x\n- 60m Z1-Z2 HR easy aerobic run keep the effort truly easy after the bike quality day"
+    },
+    {
+      "id": 98857261,
+      "date": "2026-04-03",
+      "name": "Basketball Training",
+      "type": "WORKOUT",
+      "planned_tss": 50,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description_preview": "1x\n- 90m basketball training steady hard court session"
+    },
+    {
+      "id": 98850341,
+      "date": "2026-04-04",
+      "name": "Endurance Ride Z2",
+      "type": "WORKOUT",
+      "planned_tss": 54,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
       "workout_summary": null,
       "description_preview": "1x\n- 15m 55-65% FTP settle in\n1x"
     },
     {
-      "id": 98518450,
-      "date": "2026-03-25",
-      "name": "10K Cruise Intervals 5x4",
-      "type": "WORKOUT",
-      "planned_tss": 48,
-      "duration_hours": 1.0,
-      "duration_formatted": "1h",
-      "workout_summary": null,
-      "description_preview": "1x\n- 15m Z1-Z2 HR warm-up\n5x"
-    },
-    {
-      "id": 98518451,
-      "date": "2026-03-26",
-      "name": "Sweet Spot 3x8",
-      "type": "WORKOUT",
-      "planned_tss": 52,
-      "duration_hours": 1.17,
-      "duration_formatted": "1h10m",
-      "workout_summary": null,
-      "description_preview": "1x\n- 15m 50-65% FTP warm-up\n3x"
-    },
-    {
-      "id": 98072901,
-      "date": "2026-03-27",
-      "name": "basket",
-      "type": "WORKOUT",
-      "planned_tss": null,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
-      "workout_summary": null,
-      "description_preview": "1x\n- 90 Z4 HR\n-"
-    },
-    {
-      "id": 98518452,
-      "date": "2026-03-29",
+      "id": 98850343,
+      "date": "2026-04-05",
       "name": "Long Easy Run",
       "type": "WORKOUT",
-      "planned_tss": 44,
-      "duration_hours": 1.08,
-      "duration_formatted": "1h5m",
+      "planned_tss": 56,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
       "workout_summary": null,
-      "description_preview": "1x\n- 65m Z1-Z2 HR easy long run"
+      "description_preview": "1x\n- 80m Z1-Z2 HR easy long run stay smooth on tired legs and cut short if the knee stiffens"
     },
     {
-      "id": 98072903,
-      "date": "2026-04-03",
-      "name": "basket",
+      "id": 98857262,
+      "date": "2026-04-07",
+      "name": "Basketball Training",
       "type": "WORKOUT",
-      "planned_tss": null,
+      "planned_tss": 50,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": null,
-      "description_preview": "1x\n- 90 Z4 HR\n-"
+      "description_preview": "1x\n- 90m basketball training steady hard court session"
     },
     {
-      "id": 98072904,
+      "id": 98857263,
       "date": "2026-04-10",
-      "name": "basket",
+      "name": "Basketball Training",
       "type": "WORKOUT",
-      "planned_tss": null,
+      "planned_tss": 50,
       "duration_hours": 1.5,
       "duration_formatted": "1h30m",
       "workout_summary": null,
-      "description_preview": "1x\n- 90 Z4 HR\n-"
+      "description_preview": "1x\n- 90m basketball training steady hard court session"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 5,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 12,
+    "success": 4,
+    "patternA": 4,
     "patternB": 0,
-    "bail_no_workout_doc": 9,
-    "bail_no_match": 5
+    "bail_no_workout_doc": 11,
+    "bail_no_match": 8
   },
   "weekly_summary": {
     "total_training_hours": 5.88,
