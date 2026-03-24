@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-24T14:45:25.397634",
+    "last_updated": "2026-03-24T18:09:38.606252",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -50,7 +50,7 @@
       },
       "sleep": {
         "status": "green",
-        "hours": 8.19,
+        "hours": 8.18,
         "quality": 2
       },
       "acwr": {
@@ -63,7 +63,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -8.8
+        "value": -13.4
       }
     },
     "signal_summary": {
@@ -86,7 +86,7 @@
   "history": {
     "available": true,
     "last_generated": "2026-03-14",
-    "age_days": 9,
+    "age_days": 10,
     "total_months": 12,
     "history_confidence": "high"
   },
@@ -130,10 +130,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 44.22,
-      "atl": 52.99,
-      "tsb": -8.77,
-      "ramp_rate": 1.46,
+      "ctl": 45.21,
+      "atl": 58.58,
+      "tsb": -13.37,
+      "ramp_rate": 2.45,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -174,7 +174,7 @@
       "resting_hr": 43,
       "hrv": 75.0,
       "sleep_quality": 2,
-      "sleep_hours": 8.19,
+      "sleep_hours": 8.18,
       "sleep_formatted": "8h11m"
     }
   },
@@ -328,11 +328,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.41,
-          "hard_sessions_planned": 2,
+          "planned_tss_delta": 2.71,
+          "hard_sessions_planned": 3,
           "race_proximity": null,
           "next_week_load": 1.24,
-          "plan_coverage_current_week": 1.6,
+          "plan_coverage_current_week": 2.8,
           "plan_coverage_next_week": 1.4
         },
         "data_quality": "mixed",
@@ -368,13 +368,13 @@
     "p_max": 450,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 64.0,
-    "calculation_timestamp": "2026-03-24T14:45:25.396782",
+    "calculation_timestamp": "2026-03-24T18:09:38.605320",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 8,
       "activities_28d": 28,
-      "planned_workouts_7d": 8,
+      "planned_workouts_7d": 9,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 10
@@ -836,7 +836,7 @@
       "resting_hr": 43,
       "hrv_rmssd": 75.0,
       "hrv_sdnn": null,
-      "sleep_hours": 8.19,
+      "sleep_hours": 8.18,
       "sleep_formatted": "8h11m",
       "sleep_quality": 2,
       "sleep_score": 87.0,
@@ -871,6 +871,17 @@
       "description": "1x\n- 90m basketball training steady hard court session"
     },
     {
+      "id": 100462392,
+      "date": "2026-03-24",
+      "name": "Extra Endurance Spin + Leg Prehab",
+      "type": "WORKOUT",
+      "planned_tss": 42,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "description": "1x\n- 15m 50-60% FTP easy spin\n\n1x\n- 45m 60-70% FTP aerobic endurance keep cadence smooth and torque low\n\n1x\n- 15m 45-55% FTP cool-down\n\n1x\n- 35-50m gym prehab after ride: patella isometrics, calf raises, tibialis raises, split squat or step-down, single-leg RDL, glute med, core"
+    },
+    {
       "id": 98850333,
       "date": "2026-03-25",
       "name": "10K Cruise Intervals 5x4",
@@ -880,6 +891,17 @@
       "duration_formatted": "1h",
       "workout_summary": "5\u00d74m / 2m rec | 15m",
       "description": "1x\n- 15m Z1-Z2 HR warm-up\n\n5x\n- 4m controlled 10K effort Z3-Z4 HR RPE 7-8/10\n- 2m Z2 HR\n\n\n1x\n\n- 15m Z1-Z2 HR cool-down"
+    },
+    {
+      "id": 100462393,
+      "date": "2026-03-25",
+      "name": "Bike Sweet Spot 3x12",
+      "type": "WORKOUT",
+      "planned_tss": 74,
+      "duration_hours": 1.42,
+      "duration_formatted": "1h25m",
+      "workout_summary": null,
+      "description": "1x\n- 15m 50-65% FTP warm-up\n\n3x\n- 12m 88-92% FTP steady seated sweet spot\n- 5m 45-55% FTP easy spin\n\n1x\n- 10m 45-55% FTP cool-down\n\n4x\n- 30s high cadence spin-up smooth not sprinting\n- 60s easy"
     },
     {
       "id": 98850335,
@@ -893,6 +915,17 @@
       "description": "1x\n- 15m 50-65% FTP warm-up\n\n3x\n- 10m 88-92% FTP steady seated sweet spot\n- 5m 45-55% FTP easy spin\n\n1x\n- 10m 45-55% FTP cool-down"
     },
     {
+      "id": 100462394,
+      "date": "2026-03-26",
+      "name": "Aerobic Endurance Ride + Prehab",
+      "type": "WORKOUT",
+      "planned_tss": 54,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description": "1x\n- 15m 50-60% FTP settle in\n\n1x\n- 60m 60-72% FTP aerobic endurance fully controlled no hard surges\n\n1x\n- 15m 45-55% FTP cool-down\n\n1x\n- 20-30m gym prehab: patella isometrics, calf raises, tibialis raises, hip stability"
+    },
+    {
       "id": 98857258,
       "date": "2026-03-27",
       "name": "Basketball Training",
@@ -902,6 +935,28 @@
       "duration_formatted": "1h30m",
       "workout_summary": null,
       "description": "1x\n- 90m basketball training steady hard court session"
+    },
+    {
+      "id": 100462395,
+      "date": "2026-03-27",
+      "name": "Basketball Training Light",
+      "type": "WORKOUT",
+      "planned_tss": 35,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description": "1x\n- 90m basketball training keep overall load light avoid unnecessary jump volume and max accelerations"
+    },
+    {
+      "id": 100462396,
+      "date": "2026-03-28",
+      "name": "Basket Match",
+      "type": "WORKOUT",
+      "planned_tss": 50,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "1x\n- 60m basket match treat as the only hard load of the day"
     },
     {
       "id": 98958143,
@@ -935,6 +990,17 @@
       "duration_formatted": "45m",
       "workout_summary": null,
       "description": "1x\n- 45m 45-55% FTP easy recovery spin later in the day keep it light and loosen the legs"
+    },
+    {
+      "id": 100462397,
+      "date": "2026-03-29",
+      "name": "Long Endurance Ride",
+      "type": "WORKOUT",
+      "planned_tss": 90,
+      "duration_hours": 2.25,
+      "duration_formatted": "2h15m",
+      "workout_summary": null,
+      "description": "1x\n- 20m 50-60% FTP easy build\n\n1x\n- 75m 60-70% FTP aerobic endurance steady fueling throughout\n\n1x\n- 30m 70-75% FTP high Z2 only if legs feel good after match\n\n1x\n- 10m 45-55% FTP cool-down"
     },
     {
       "id": 98850338,
@@ -1040,7 +1106,7 @@
     "success": 4,
     "patternA": 4,
     "patternB": 0,
-    "bail_no_workout_doc": 9,
+    "bail_no_workout_doc": 15,
     "bail_no_match": 3
   },
   "weekly_summary": {
