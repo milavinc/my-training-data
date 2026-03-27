@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T11:09:36.349498",
+  "generated_at": "2026-03-27T14:34:14.957492",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
@@ -114,6 +114,87 @@
           "avg_hr": 154,
           "max_hr": 190,
           "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i135156229",
+      "date": "2026-03-27",
+      "type": "Ride",
+      "name": "Gent Wegwielrennen",
+      "interval_summary": [
+        "1x 17m34s 125bpm",
+        "6x 9m44s 141bpm",
+        "1x 2m50s 142bpm"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1
+        },
+        {
+          "type": "WORK",
+          "label": "1054s@125bpm",
+          "duration_secs": 1054,
+          "avg_hr": 125,
+          "max_hr": 151,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "584s@141bpm",
+          "duration_secs": 624,
+          "avg_hr": 138,
+          "max_hr": 151,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "584s@141bpm",
+          "duration_secs": 569,
+          "avg_hr": 136,
+          "max_hr": 148,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "584s@141bpm",
+          "duration_secs": 545,
+          "avg_hr": 142,
+          "max_hr": 152,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "584s@141bpm",
+          "duration_secs": 552,
+          "avg_hr": 144,
+          "max_hr": 159,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "584s@141bpm",
+          "duration_secs": 570,
+          "avg_hr": 145,
+          "max_hr": 156,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "584s@141bpm",
+          "duration_secs": 646,
+          "avg_hr": 142,
+          "max_hr": 158,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "170s@142bpm",
+          "duration_secs": 170,
+          "avg_hr": 142,
+          "max_hr": 155,
+          "zone": 2
         }
       ]
     }
