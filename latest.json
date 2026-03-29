@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-03-29T00:02:47.254240",
+    "last_updated": "2026-03-29T05:56:18.692248",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -33,8 +33,8 @@
     }
   ],
   "readiness_decision": {
-    "recommendation": "modify",
-    "priority": 2,
+    "recommendation": "go",
+    "priority": 3,
     "signals": {
       "hrv": {
         "status": "unavailable",
@@ -62,13 +62,13 @@
         "value": null
       },
       "tsb": {
-        "status": "amber",
-        "value": -22.8
+        "status": "green",
+        "value": 3.1
       }
     },
     "signal_summary": {
-      "green": 0,
-      "amber": 2,
+      "green": 1,
+      "amber": 1,
       "red": 0,
       "unavailable": 4
     },
@@ -79,18 +79,8 @@
       "modifier_applied": "default"
     },
     "race_week_defers": false,
-    "modification": {
-      "triggers": [
-        "acwr",
-        "tsb"
-      ],
-      "suggested_adjustments": {
-        "intensity": "reduce",
-        "volume": "reduce",
-        "cap_zone": "Z2"
-      }
-    },
-    "reason": "P2 signal count. 2 amber (acwr, tsb) >= threshold 2.",
+    "modification": null,
+    "reason": "P3 green light. 1 green, 1 amber (threshold 2), 0 red. Note: 4 signals unavailable \u2014 limited data.",
     "alarm_refs": []
   },
   "history": {
@@ -146,17 +136,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 46.6,
-      "atl": 69.4,
-      "tsb": -22.8,
-      "ramp_rate": 1.18,
+      "ctl": 43.43,
+      "atl": 40.35,
+      "tsb": 3.08,
+      "ramp_rate": -1.98,
       "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 260.7,
-      "w_prime": 21017,
+      "eftp": 260.2,
+      "w_prime": 20975,
       "w_prime_kj": 21.0,
-      "p_max": 449,
+      "p_max": 448,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -382,13 +372,13 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 260.7,
-    "w_prime": 21017,
+    "eftp": 260.2,
+    "w_prime": 20975,
     "w_prime_kj": 21.0,
-    "p_max": 449,
+    "p_max": 448,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-03-29T00:02:47.253360",
+    "calculation_timestamp": "2026-03-29T05:56:18.691349",
     "data_quality": {
       "hrv_data_points": 4,
       "rhr_data_points": 6,
