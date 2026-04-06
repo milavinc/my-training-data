@@ -1,96 +1,9 @@
 {
-  "generated_at": "2026-04-05T23:54:54.737353",
+  "generated_at": "2026-04-06T06:19:58.658384",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
   "activities": [
-    {
-      "activity_id": "i135983567",
-      "date": "2026-03-29",
-      "type": "Ride",
-      "name": "Lede Wegwielrennen",
-      "interval_summary": [
-        "1x 11m30s 102bpm",
-        "2x 15m18s 119bpm",
-        "1x 50m10s 110bpm",
-        "2x 9m54s 108bpm",
-        "3x 11m32s 119bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "690s@102bpm",
-          "duration_secs": 690,
-          "avg_hr": 102,
-          "max_hr": 120,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "918s@119bpm",
-          "duration_secs": 937,
-          "avg_hr": 114,
-          "max_hr": 126,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "3010s@110bpm",
-          "duration_secs": 3010,
-          "avg_hr": 110,
-          "max_hr": 128,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "594s@108bpm",
-          "duration_secs": 602,
-          "avg_hr": 104,
-          "max_hr": 116,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "594s@108bpm",
-          "duration_secs": 586,
-          "avg_hr": 111,
-          "max_hr": 125,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "692s@119bpm",
-          "duration_secs": 689,
-          "avg_hr": 115,
-          "max_hr": 142,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "692s@119bpm",
-          "duration_secs": 701,
-          "avg_hr": 117,
-          "max_hr": 131,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "692s@119bpm",
-          "duration_secs": 687,
-          "avg_hr": 124,
-          "max_hr": 133,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "918s@119bpm",
-          "duration_secs": 899,
-          "avg_hr": 123,
-          "max_hr": 136,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i136532863",
       "date": "2026-04-01",
