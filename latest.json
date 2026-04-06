@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-06T06:19:58.658603",
+    "last_updated": "2026-04-06T10:37:55.442330",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -128,13 +128,13 @@
       "atl": 44.5,
       "tsb": -1.35,
       "ramp_rate": -0.22,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
-      "eftp": 257.9,
-      "w_prime": 20787,
+      "eftp": 258.1,
+      "w_prime": 20808,
       "w_prime_kj": 20.8,
-      "p_max": 1183,
+      "p_max": 1184,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -293,9 +293,9 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.4,
+    "consistency_index": 0.33,
     "consistency_details": {
-      "planned_days": 5,
+      "planned_days": 6,
       "completed_days": 2,
       "matched_days": 2,
       "planned_dates": [
@@ -303,7 +303,8 @@
         "2026-04-02",
         "2026-04-03",
         "2026-04-04",
-        "2026-04-05"
+        "2026-04-05",
+        "2026-04-06"
       ],
       "completed_dates": [
         "2026-04-02",
@@ -324,11 +325,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.32,
-          "hard_sessions_planned": 0,
+          "planned_tss_delta": 1.72,
+          "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.4,
+          "plan_coverage_current_week": 1.2,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "mixed",
@@ -358,19 +359,19 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 257.9,
-    "w_prime": 20787,
+    "eftp": 258.1,
+    "w_prime": 20808,
     "w_prime_kj": 20.8,
-    "p_max": 1183,
+    "p_max": 1184,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-06T06:19:58.657677",
+    "calculation_timestamp": "2026-04-06T10:37:55.441388",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 7,
       "activities_28d": 30,
-      "planned_workouts_7d": 7,
+      "planned_workouts_7d": 8,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 23
@@ -828,6 +829,17 @@
   ],
   "planned_workouts": [
     {
+      "id": 102755318,
+      "date": "2026-04-06",
+      "name": "Recovery Spin",
+      "type": "WORKOUT",
+      "planned_tss": 35,
+      "duration_hours": 1.17,
+      "duration_formatted": "1h10m",
+      "workout_summary": null,
+      "description": "1x\n- 70m 50-60% FTP very easy recovery spin"
+    },
+    {
       "id": 98857262,
       "date": "2026-04-07",
       "name": "Basketball Training",
@@ -839,24 +851,57 @@
       "description": "1x\n- 90m basketball training steady hard court session"
     },
     {
-      "id": 98857263,
-      "date": "2026-04-10",
-      "name": "Basketball Training",
+      "id": 102755319,
+      "date": "2026-04-08",
+      "name": "Flanders Endurance Ride 4h",
       "type": "WORKOUT",
-      "planned_tss": 50,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
+      "planned_tss": 218,
+      "duration_hours": 4.25,
+      "duration_formatted": "4h15m",
+      "workout_summary": "3\u00d78m @258W / 5m rec | 4\u00d72m @296W / 4m rec",
+      "description": "1x\n- 25m 55-65% FTP settle in\n\n3x\n- 8m 88-94% FTP seated climb simulation on Kwaremont-style efforts at controlled cadence\n- 5m 50-60% FTP easy between reps\n\n4x\n- 2m 100-108% FTP punchy climb effort on Paterberg-style ramps\n- 4m 50-60% FTP easy between reps\n\n1x\n- 147m 65-75% FTP steady endurance between and after climb blocks\n\n1x\n- 20m 50-60% FTP cool-down"
+    },
+    {
+      "id": 102755320,
+      "date": "2026-04-09",
+      "name": "Recovery Run",
+      "type": "WORKOUT",
+      "planned_tss": 20,
+      "duration_hours": 0.58,
+      "duration_formatted": "35m",
       "workout_summary": null,
-      "description": "1x\n- 90m basketball training steady hard court session"
+      "description": "1x\n- 35m Z1 HR recovery run very relaxed"
+    },
+    {
+      "id": 102755321,
+      "date": "2026-04-10",
+      "name": "Long Endurance Ride 2h",
+      "type": "WORKOUT",
+      "planned_tss": 91,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "description": "1x\n- 15m 55-65% FTP settle in\n\n1x\n- 90m 65-75% FTP steady endurance\n\n1x\n- 15m 50-60% FTP cool-down"
+    },
+    {
+      "id": 102755322,
+      "date": "2026-04-12",
+      "name": "Long Endurance Ride 3h",
+      "type": "WORKOUT",
+      "planned_tss": 115,
+      "duration_hours": 3.0,
+      "duration_formatted": "3h",
+      "workout_summary": null,
+      "description": "1x\n- 20m 55-65% FTP settle in\n1x\n- 140m 65-75% FTP steady endurance\n1x\n- 20m 50-60% FTP cool-down"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 3,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
-    "bail_no_workout_doc": 2,
-    "bail_no_match": 0
+    "bail_no_workout_doc": 3,
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 8.35,
