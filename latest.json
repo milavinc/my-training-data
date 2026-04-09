@@ -16,21 +16,21 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-09T06:07:10.571277",
+    "last_updated": "2026-04-09T10:40:19.848079",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
   },
   "alerts": [],
   "readiness_decision": {
-    "recommendation": "go",
-    "priority": 3,
+    "recommendation": "modify",
+    "priority": 2,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 59.7,
-        "delta_pct": null
+        "status": "green",
+        "value": 68.0,
+        "baseline_7d": 60.9,
+        "delta_pct": 11.7
       },
       "rhr": {
         "status": "amber",
@@ -39,17 +39,17 @@
         "delta_bpm": 3.3
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "amber",
+        "hours": 7.23,
+        "quality": 3
       },
       "acwr": {
         "status": "green",
         "value": 1.25
       },
       "ri": {
-        "status": "unavailable",
-        "value": null
+        "status": "green",
+        "value": 1.04
       },
       "tsb": {
         "status": "green",
@@ -57,10 +57,10 @@
       }
     },
     "signal_summary": {
-      "green": 2,
-      "amber": 1,
+      "green": 4,
+      "amber": 2,
       "red": 0,
-      "unavailable": 3
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Base",
@@ -69,8 +69,18 @@
       "modifier_applied": "default"
     },
     "race_week_defers": false,
-    "modification": null,
-    "reason": "P3 green light. 2 green, 1 amber (threshold 2), 0 red.",
+    "modification": {
+      "triggers": [
+        "rhr",
+        "sleep"
+      ],
+      "suggested_adjustments": {
+        "intensity": "reduce",
+        "volume": "reduce",
+        "cap_zone": null
+      }
+    },
+    "reason": "P2 signal count. 2 amber (rhr, sleep) >= threshold 2.",
     "alarm_refs": []
   },
   "history": {
@@ -150,19 +160,19 @@
     "current_metrics": {
       "weight_kg": 71.0,
       "resting_hr": 50,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null
+      "hrv": 68.0,
+      "sleep_quality": 3,
+      "sleep_hours": 7.23,
+      "sleep_formatted": "7h14m"
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "hrv_baseline_7d": 59.7,
+    "recovery_index": 1.04,
+    "hrv_baseline_7d": 60.9,
     "rhr_baseline_7d": 46.7,
-    "hrv_baseline_28d": 64.7,
+    "hrv_baseline_28d": 64.8,
     "rhr_baseline_28d": 46.4,
-    "latest_hrv": null,
+    "latest_hrv": 68.0,
     "latest_rhr": 50,
     "acwr": 1.25,
     "acwr_interpretation": "optimal",
@@ -175,7 +185,7 @@
     "multi_sport_detected": true,
     "strain": 451.0,
     "stress_tolerance": 4.5,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 4.3,
     "tss_7d_total": 451.0,
     "tss_28d_total": 1444.0,
     "zone_distribution_7d": {
@@ -350,9 +360,9 @@
     "p_max": 1184,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-09T06:07:10.570385",
+    "calculation_timestamp": "2026-04-09T10:40:19.847172",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 7,
       "activities_28d": 29,
@@ -817,12 +827,12 @@
       "date": "2026-04-09",
       "weight_kg": null,
       "resting_hr": 50,
-      "hrv_rmssd": null,
+      "hrv_rmssd": 68.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 7.23,
+      "sleep_formatted": "7h14m",
+      "sleep_quality": 3,
+      "sleep_score": 65.0,
       "mental_energy": null,
       "fatigue": null,
       "soreness": null,
@@ -878,7 +888,7 @@
     "total_training_formatted": "9h19m",
     "total_tss": 451,
     "activities_count": 7,
-    "avg_hrv": 59.7,
+    "avg_hrv": 60.9,
     "avg_resting_hr": 46.7
   },
   "race_calendar": {
