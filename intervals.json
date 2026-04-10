@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T14:33:11.951342",
+  "generated_at": "2026-04-10T17:36:43.770311",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
@@ -772,6 +772,54 @@
           "max_hr": 144,
           "avg_cadence": 87.98649,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i138721963",
+      "date": "2026-04-10",
+      "type": "Ride",
+      "name": "Lede - Long Endurance Ride 2h",
+      "interval_summary": [
+        "1x 22s 688w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 8008,
+          "avg_power": 154,
+          "max_power": 677,
+          "avg_hr": 125,
+          "max_hr": 143,
+          "avg_cadence": 76.817535,
+          "zone": 1,
+          "training_load": 71.81237,
+          "decoupling": 3.4617262
+        },
+        {
+          "type": "WORK",
+          "label": "22s@688w95rpm",
+          "duration_secs": 22,
+          "avg_power": 688,
+          "max_power": 811,
+          "avg_hr": 150,
+          "max_hr": 167,
+          "avg_cadence": 95.22727,
+          "zone": 7,
+          "training_load": 1.1679463,
+          "decoupling": 21.702765
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 48,
+          "avg_power": 313,
+          "max_power": 713,
+          "avg_hr": 165,
+          "max_hr": 169,
+          "avg_cadence": 68.9375,
+          "zone": 5,
+          "training_load": 3.3834574,
+          "decoupling": -46.94713
         }
       ]
     }
