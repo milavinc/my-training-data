@@ -1,57 +1,9 @@
 {
-  "generated_at": "2026-04-13T23:04:30.690156",
+  "generated_at": "2026-04-14T00:00:57.809605",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
   "activities": [
-    {
-      "activity_id": "i137597729",
-      "date": "2026-04-06",
-      "type": "Ride",
-      "name": "Lede - Recovery Spin",
-      "interval_summary": [
-        "1x 13s 477w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 4128,
-          "avg_power": 155,
-          "max_power": 747,
-          "avg_hr": 123,
-          "max_hr": 136,
-          "avg_cadence": 78.7427,
-          "zone": 1,
-          "training_load": 35.412468,
-          "decoupling": -1.7031766
-        },
-        {
-          "type": "WORK",
-          "label": "13s@477w85rpm",
-          "duration_secs": 13,
-          "avg_power": 477,
-          "max_power": 667,
-          "avg_hr": 117,
-          "max_hr": 118,
-          "avg_cadence": 85.0,
-          "zone": 7,
-          "training_load": 0.19606033,
-          "decoupling": 24.141872
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1799,
-          "avg_power": 154,
-          "max_power": 811,
-          "avg_hr": 126,
-          "max_hr": 149,
-          "avg_cadence": 73.99772,
-          "zone": 1,
-          "training_load": 19.903173,
-          "decoupling": -2.2792876
-        }
-      ]
-    },
     {
       "activity_id": "i137949690",
       "date": "2026-04-07",
