@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-15T08:00:15.359941",
+    "last_updated": "2026-04-15T09:51:35.761276",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -127,8 +127,8 @@
       "ctl": 46.4,
       "atl": 56.37,
       "tsb": -9.97,
-      "ramp_rate": -1.9,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ramp_rate": 2.8,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 271.7,
@@ -293,15 +293,16 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": 0.67,
+    "consistency_index": 0.5,
     "consistency_details": {
-      "planned_days": 3,
+      "planned_days": 4,
       "completed_days": 2,
       "matched_days": 2,
       "planned_dates": [
         "2026-04-09",
         "2026-04-10",
-        "2026-04-12"
+        "2026-04-12",
+        "2026-04-15"
       ],
       "completed_dates": [
         "2026-04-10",
@@ -312,8 +313,7 @@
       "phase": "Base",
       "confidence": "medium",
       "reason_codes": [
-        "HR_ONLY_MAJORITY",
-        "NO_PLANNED_WORKOUTS"
+        "HR_ONLY_MAJORITY"
       ],
       "basis": {
         "stream_1": {
@@ -323,11 +323,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
+          "planned_tss_delta": 1.0,
+          "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 0.8,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "mixed",
@@ -340,8 +340,7 @@
     },
     "phase_detected": "Base",
     "phase_triggers": [
-      "HR_ONLY_MAJORITY",
-      "NO_PLANNED_WORKOUTS"
+      "HR_ONLY_MAJORITY"
     ],
     "seasonal_context": "Late Base / Build",
     "benchmark_indoor": {
@@ -364,13 +363,13 @@
     "p_max": 1183,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-15T08:00:15.359008",
+    "calculation_timestamp": "2026-04-15T09:51:35.760345",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 8,
       "activities_28d": 32,
-      "planned_workouts_7d": 3,
+      "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 32
@@ -871,13 +870,58 @@
       "vo2max": null
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 104518041,
+      "date": "2026-04-15",
+      "name": "Run Threshold Cruise Intervals",
+      "type": "WORKOUT",
+      "planned_tss": 63,
+      "duration_hours": 1.02,
+      "duration_formatted": "1h1m",
+      "workout_summary": "15m | 4\u00d76m / 2m rec | 10m | 4\u00d720s / 40s rec",
+      "description": "- 15m 4:50-5:15/km Pace\n\n4x\n- 6m 3:40-3:45/km Pace\n- 2m 5:15-6:00/km Pace\n\n- 10m 4:55-5:25/km Pace\n\n4x\n- 20s 3:20-3:30/km Pace\n- 40s 5:30-6:15/km Pace"
+    },
+    {
+      "id": 104517649,
+      "date": "2026-04-16",
+      "name": "Recovery Endurance Ride",
+      "type": "WORKOUT",
+      "planned_tss": 42,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "description": "1x\n- 15m 55-65% FTP settle in\n1x\n- 45m 65-72% FTP steady aerobic endurance, keep cadence smooth and pressure light\n1x\n- 15m 50-60% FTP cool-down"
+    },
+    {
+      "id": 104518042,
+      "date": "2026-04-17",
+      "name": "Easy Aerobic Run",
+      "type": "WORKOUT",
+      "planned_tss": 28,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "description": "- 45m Z1 HR"
+    },
+    {
+      "id": 104517651,
+      "date": "2026-04-19",
+      "name": "Long Endurance Ride",
+      "type": "WORKOUT",
+      "planned_tss": 88,
+      "duration_hours": 2.25,
+      "duration_formatted": "2h15m",
+      "workout_summary": null,
+      "description": "1x\n- 15m 55-65% FTP settle in\n1x\n- 95m 65-75% FTP steady endurance\n1x\n- 10m 76-82% FTP upper endurance only if legs feel good after Saturday match\n1x\n- 15m 50-60% FTP cool-down"
+    }
+  ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 1,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
-    "bail_no_workout_doc": 0,
+    "bail_no_workout_doc": 3,
     "bail_no_match": 0
   },
   "weekly_summary": {
