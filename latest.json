@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-15T12:07:06.307901",
+    "last_updated": "2026-04-15T14:06:23.743834",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -323,12 +323,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.0,
+          "planned_tss_delta": 1.51,
           "hard_sessions_planned": 1,
           "race_proximity": null,
-          "next_week_load": null,
-          "plan_coverage_current_week": 0.8,
-          "plan_coverage_next_week": 0.0
+          "next_week_load": 0.6,
+          "plan_coverage_current_week": 1.2,
+          "plan_coverage_next_week": 0.6
         },
         "data_quality": "mixed",
         "stream_agreement": null
@@ -363,7 +363,7 @@
     "p_max": 1183,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 64.0,
-    "calculation_timestamp": "2026-04-15T12:07:06.306950",
+    "calculation_timestamp": "2026-04-15T14:06:23.742954",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -950,24 +950,79 @@
       "description": "- 45m Z1 HR"
     },
     {
+      "id": 104552523,
+      "date": "2026-04-17",
+      "name": "Kinesist Sessie",
+      "type": "WORKOUT",
+      "planned_tss": 20,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "1x\n- 60m kinesitherapie kracht en revalidatie"
+    },
+    {
+      "id": 104551909,
+      "date": "2026-04-18",
+      "name": "Basketbal Match",
+      "type": "WORKOUT",
+      "planned_tss": 75,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description": "1x\n- 90m basketbalwedstrijd hoge neuromusculaire en anaerobe belasting"
+    },
+    {
       "id": 104517651,
       "date": "2026-04-19",
       "name": "Long Endurance Ride",
       "type": "WORKOUT",
-      "planned_tss": 88,
+      "planned_tss": 105,
       "duration_hours": 2.25,
       "duration_formatted": "2h15m",
       "workout_summary": null,
-      "description": "1x\n- 15m 55-65% FTP settle in\n1x\n- 95m 65-75% FTP steady endurance\n1x\n- 10m 76-82% FTP upper endurance only if legs feel good after Saturday match\n1x\n- 15m 50-60% FTP cool-down"
+      "description": "1x\n- 15m 55-65% FTP settle in\n\n1x\n- 95m 65-75% FTP steady endurance\n\n1x\n- 10m 76-82% FTP upper endurance only if legs feel good after Saturday match\n\n1x\n- 15m 50-60% FTP cool-down"
+    },
+    {
+      "id": 104551911,
+      "date": "2026-04-21",
+      "name": "Basketbal Training",
+      "type": "WORKOUT",
+      "planned_tss": 55,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description": "1x\n- 90m basketbaltraining extra hoge-intensiteitsbelasting"
+    },
+    {
+      "id": 104551913,
+      "date": "2026-04-24",
+      "name": "Basketbal Training",
+      "type": "WORKOUT",
+      "planned_tss": 55,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description_preview": "1x\n- 90m basketbaltraining extra hoge-intensiteitsbelasting"
+    },
+    {
+      "id": 104551915,
+      "date": "2026-04-25",
+      "name": "Basketbal Match",
+      "type": "WORKOUT",
+      "planned_tss": 75,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description_preview": "1x\n- 90m basketbalwedstrijd laatste geplande teamprikkel van het seizoen"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
+    "attempted": 3,
     "success": 1,
     "patternA": 1,
     "patternB": 0,
-    "bail_no_workout_doc": 3,
-    "bail_no_match": 0
+    "bail_no_workout_doc": 6,
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 9.46,
