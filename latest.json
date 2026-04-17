@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-17T11:04:31.390082",
+    "last_updated": "2026-04-17T12:05:41.516790",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -63,7 +63,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -14.8
+        "value": -14.9
       }
     },
     "signal_summary": {
@@ -124,10 +124,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 47.58,
-      "atl": 62.42,
-      "tsb": -14.84,
-      "ramp_rate": -1.18,
+      "ctl": 47.6,
+      "atl": 62.55,
+      "tsb": -14.95,
+      "ramp_rate": -1.16,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -363,7 +363,7 @@
     "p_max": 1181,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-17T11:04:31.389159",
+    "calculation_timestamp": "2026-04-17T12:05:41.515923",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -831,7 +831,7 @@
       "date": "2026-04-17",
       "name": "Easy Aerobic Run",
       "type": "WORKOUT",
-      "planned_tss": 28,
+      "planned_tss": 29,
       "duration_hours": 0.75,
       "duration_formatted": "45m",
       "workout_summary": null,
@@ -905,12 +905,12 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 2,
+    "attempted": 3,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 5,
-    "bail_no_match": 2
+    "bail_no_workout_doc": 4,
+    "bail_no_match": 3
   },
   "weekly_summary": {
     "total_training_hours": 7.6,
