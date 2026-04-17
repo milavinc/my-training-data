@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T19:33:41.936045",
+  "generated_at": "2026-04-17T20:28:15.465755",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
@@ -538,6 +538,117 @@
           "max_hr": 174,
           "avg_cadence": 84.82022,
           "zone": 3
+        }
+      ]
+    },
+    {
+      "activity_id": "i140711820",
+      "date": "2026-04-17",
+      "type": "Run",
+      "name": "Lede - Easy Aerobic Run",
+      "interval_summary": [
+        "9x 4m46s 132bpm",
+        "2x 2m8s 134bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "286s@132bpm86rpm",
+          "duration_secs": 301,
+          "avg_hr": 132,
+          "max_hr": 154,
+          "avg_cadence": 84.46179,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "286s@132bpm86rpm",
+          "duration_secs": 273,
+          "avg_hr": 128,
+          "max_hr": 136,
+          "avg_cadence": 86.89011,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "286s@132bpm86rpm",
+          "duration_secs": 280,
+          "avg_hr": 134,
+          "max_hr": 140,
+          "avg_cadence": 86.71786,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "286s@132bpm86rpm",
+          "duration_secs": 288,
+          "avg_hr": 132,
+          "max_hr": 138,
+          "avg_cadence": 85.826385,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "286s@132bpm86rpm",
+          "duration_secs": 280,
+          "avg_hr": 133,
+          "max_hr": 137,
+          "avg_cadence": 86.2,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "286s@132bpm86rpm",
+          "duration_secs": 283,
+          "avg_hr": 132,
+          "max_hr": 138,
+          "avg_cadence": 86.55124,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "286s@132bpm86rpm",
+          "duration_secs": 289,
+          "avg_hr": 132,
+          "max_hr": 137,
+          "avg_cadence": 86.06921,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "286s@132bpm86rpm",
+          "duration_secs": 288,
+          "avg_hr": 133,
+          "max_hr": 140,
+          "avg_cadence": 86.46181,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "286s@132bpm86rpm",
+          "duration_secs": 288,
+          "avg_hr": 135,
+          "max_hr": 138,
+          "avg_cadence": 86.13194,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "128s@134bpm85rpm",
+          "duration_secs": 131,
+          "avg_hr": 134,
+          "max_hr": 137,
+          "avg_cadence": 85.52672,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "128s@134bpm85rpm",
+          "duration_secs": 125,
+          "avg_hr": 133,
+          "max_hr": 137,
+          "avg_cadence": 84.24,
+          "zone": 1
         }
       ]
     }
