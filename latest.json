@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-22T05:52:21.477610",
+    "last_updated": "2026-04-22T08:01:18.118158",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -46,29 +46,29 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 58.8,
-        "delta_pct": null
+        "status": "green",
+        "value": 77.0,
+        "baseline_7d": 61.4,
+        "delta_pct": 25.4
       },
       "rhr": {
-        "status": "amber",
-        "value": 50,
-        "baseline_7d": 46.6,
-        "delta_bpm": 3.4
+        "status": "green",
+        "value": 45,
+        "baseline_7d": 45.9,
+        "delta_bpm": -0.9
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "green",
+        "hours": 8.13,
+        "quality": 2
       },
       "acwr": {
         "status": "amber",
         "value": 0.59
       },
       "ri": {
-        "status": "unavailable",
-        "value": null
+        "status": "green",
+        "value": 1.28
       },
       "tsb": {
         "status": "green",
@@ -76,10 +76,10 @@
       }
     },
     "signal_summary": {
-      "green": 1,
-      "amber": 2,
+      "green": 5,
+      "amber": 1,
       "red": 0,
-      "unavailable": 3
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Build",
@@ -89,7 +89,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 1 green, 2 amber (threshold 3), 0 red.",
+    "reason": "P3 green light. 5 green, 1 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -174,21 +174,21 @@
     },
     "current_metrics": {
       "weight_kg": 71.0,
-      "resting_hr": 50,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null
+      "resting_hr": 45,
+      "hrv": 77.0,
+      "sleep_quality": 2,
+      "sleep_hours": 8.13,
+      "sleep_formatted": "8h8m"
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "hrv_baseline_7d": 58.8,
-    "rhr_baseline_7d": 46.6,
-    "hrv_baseline_28d": 62.3,
-    "rhr_baseline_28d": 46.7,
-    "latest_hrv": null,
-    "latest_rhr": 50,
+    "recovery_index": 1.28,
+    "hrv_baseline_7d": 61.4,
+    "rhr_baseline_7d": 45.9,
+    "hrv_baseline_28d": 62.8,
+    "rhr_baseline_28d": 46.5,
+    "latest_hrv": 77.0,
+    "latest_rhr": 45,
     "acwr": 0.59,
     "acwr_interpretation": "undertraining",
     "monotony": 1.04,
@@ -200,7 +200,7 @@
     "multi_sport_detected": true,
     "strain": 218.0,
     "stress_tolerance": 2.1,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 1.6,
     "tss_7d_total": 210.0,
     "tss_28d_total": 1413.0,
     "zone_distribution_7d": {
@@ -368,9 +368,9 @@
     "p_max": 1176,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-22T05:52:21.476766",
+    "calculation_timestamp": "2026-04-22T08:01:18.117260",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 5,
       "activities_28d": 28,
@@ -717,13 +717,13 @@
     {
       "date": "2026-04-22",
       "weight_kg": null,
-      "resting_hr": 50,
-      "hrv_rmssd": null,
+      "resting_hr": 45,
+      "hrv_rmssd": 77.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 8.13,
+      "sleep_formatted": "8h8m",
+      "sleep_quality": 2,
+      "sleep_score": 88.0,
       "mental_energy": null,
       "fatigue": null,
       "soreness": null,
@@ -768,8 +768,8 @@
     "total_training_formatted": "4h38m",
     "total_tss": 210,
     "activities_count": 5,
-    "avg_hrv": 58.8,
-    "avg_resting_hr": 46.6
+    "avg_hrv": 61.4,
+    "avg_resting_hr": 45.9
   },
   "race_calendar": {
     "next_race": null,
