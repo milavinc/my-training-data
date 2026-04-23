@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-23T08:21:44.299460",
+    "last_updated": "2026-04-23T10:07:13.148518",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -289,7 +289,7 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 5,
+      "planned_days": 6,
       "completed_days": 0,
       "matched_days": 0,
       "planned_dates": [
@@ -297,7 +297,8 @@
         "2026-04-18",
         "2026-04-19",
         "2026-04-21",
-        "2026-04-22"
+        "2026-04-22",
+        "2026-04-23"
       ],
       "completed_dates": []
     },
@@ -313,12 +314,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.58,
+          "planned_tss_delta": 0.86,
           "hard_sessions_planned": 0,
           "race_proximity": null,
-          "next_week_load": null,
-          "plan_coverage_current_week": 0.4,
-          "plan_coverage_next_week": 0.0
+          "next_week_load": 0.87,
+          "plan_coverage_current_week": 0.8,
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -351,13 +352,13 @@
     "p_max": 1174,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-23T08:21:44.298498",
+    "calculation_timestamp": "2026-04-23T10:07:13.147638",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 6,
       "activities_28d": 30,
-      "planned_workouts_7d": 6,
+      "planned_workouts_7d": 7,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 40
@@ -752,6 +753,17 @@
   ],
   "planned_workouts": [
     {
+      "id": 106059169,
+      "date": "2026-04-23",
+      "name": "Kine Oefeningen",
+      "type": "WORKOUT",
+      "planned_tss": 15,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "description": "1x\n- 45m kine oefeningen rustig gecontroleerd geen extra vermoeidheid najagen"
+    },
+    {
       "id": 104551913,
       "date": "2026-04-24",
       "name": "Basketbal Training",
@@ -772,6 +784,94 @@
       "duration_formatted": "1h30m",
       "workout_summary": null,
       "description": "1x\n- 90m basketbalwedstrijd laatste geplande teamprikkel van het seizoen"
+    },
+    {
+      "id": 106059170,
+      "date": "2026-04-26",
+      "name": "Easy Endurance Ride",
+      "type": "WORKOUT",
+      "planned_tss": 50,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description": "- 15m 50-60% FTP\n- 60m 60-70% FTP\n- 15m 45-55% FTP"
+    },
+    {
+      "id": 106059173,
+      "date": "2026-04-27",
+      "name": "Easy Aerobic Run",
+      "type": "WORKOUT",
+      "planned_tss": 30,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "description": "- 45m Z1 HR"
+    },
+    {
+      "id": 106059175,
+      "date": "2026-04-28",
+      "name": "Steady Endurance Ride",
+      "type": "WORKOUT",
+      "planned_tss": 45,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "description": "- 10m 50-60% FTP\n- 55m 60-72% FTP\n- 10m 45-55% FTP"
+    },
+    {
+      "id": 106059176,
+      "date": "2026-04-29",
+      "name": "Run Threshold Support",
+      "type": "WORKOUT",
+      "planned_tss": 55,
+      "duration_hours": 1.08,
+      "duration_formatted": "1h5m",
+      "workout_summary": null,
+      "description": "- 15m Z1 HR\n\n3x\n- 8m Z4 HR\n- 3m Z1 HR\n\n- 10m Z1 HR\n\n4x\n- 20s 3:20-3:35/km Pace\n- 40s Z1 HR\n\n- 5m Z1 HR"
+    },
+    {
+      "id": 106059177,
+      "date": "2026-04-30",
+      "name": "Easy Run With Strides",
+      "type": "WORKOUT",
+      "planned_tss": 30,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "description": "- 35m Z1 HR\n\n6x\n- 15s 3:20-3:40/km Pace\n- 75s Z1 HR\n\n- 5m Z1 HR"
+    },
+    {
+      "id": 106059178,
+      "date": "2026-05-01",
+      "name": "Aerobic Endurance Ride",
+      "type": "WORKOUT",
+      "planned_tss": 55,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description_preview": "- 15m 50-60% FTP\n- 65m 60-72% FTP\n- 10m 45-55% FTP"
+    },
+    {
+      "id": 106059179,
+      "date": "2026-05-02",
+      "name": "Progressive Long Run",
+      "type": "WORKOUT",
+      "planned_tss": 55,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "description_preview": "- 55m Z1 HR\n- 15m Z2 HR\n- 5m Z1 HR"
+    },
+    {
+      "id": 106059181,
+      "date": "2026-05-03",
+      "name": "Long Endurance Ride",
+      "type": "WORKOUT",
+      "planned_tss": 75,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "description_preview": "- 20m 50-60% FTP\n- 85m 60-72% FTP\n- 15m 45-55% FTP"
     }
   ],
   "workout_summary_stats": {
@@ -779,7 +879,7 @@
     "success": 0,
     "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 2,
+    "bail_no_workout_doc": 11,
     "bail_no_match": 0
   },
   "weekly_summary": {
