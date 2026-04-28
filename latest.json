@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-28T16:29:39.552424",
+    "last_updated": "2026-04-28T18:07:39.851252",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -139,7 +139,7 @@
       "sports": {
         "cycling": {
           "lthr": 171,
-          "max_hr": 192,
+          "max_hr": 191,
           "threshold_pace": null,
           "pace_units": null,
           "ftp": 285,
@@ -361,7 +361,7 @@
     "p_max": 1172,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 65.0,
-    "calculation_timestamp": "2026-04-28T16:29:39.394330",
+    "calculation_timestamp": "2026-04-28T18:07:39.850318",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
