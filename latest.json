@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-04-29T06:39:22.575168",
+    "last_updated": "2026-04-29T09:02:55.658814",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -325,7 +325,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.71,
+          "planned_tss_delta": 0.74,
           "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": null,
@@ -365,7 +365,7 @@
     "p_max": 1171,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-04-29T06:39:22.574254",
+    "calculation_timestamp": "2026-04-29T09:02:55.657902",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -741,30 +741,8 @@
       "description": "- 45m Z1 HR"
     },
     {
-      "id": 106059177,
+      "id": 107204061,
       "date": "2026-04-30",
-      "name": "Easy Run With Strides",
-      "type": "WORKOUT",
-      "planned_tss": 30,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
-      "workout_summary": null,
-      "description": "- 35m Z1 HR\n\n6x\n- 15s 3:20-3:40/km Pace\n- 75s Z1 HR\n\n- 5m Z1 HR"
-    },
-    {
-      "id": 106059176,
-      "date": "2026-05-01",
-      "name": "Run Threshold Support",
-      "type": "WORKOUT",
-      "planned_tss": 55,
-      "duration_hours": 1.08,
-      "duration_formatted": "1h5m",
-      "workout_summary": null,
-      "description": "- 15m Z1 HR\n\n3x\n- 8m Z4 HR\n- 3m Z1 HR\n\n- 10m Z1 HR\n\n4x\n- 20s 3:20-3:35/km Pace\n- 40s Z1 HR\n\n- 5m Z1 HR"
-    },
-    {
-      "id": 107062275,
-      "date": "2026-05-02",
       "name": "Easy Aerobic Run",
       "type": "WORKOUT",
       "planned_tss": 30,
@@ -774,15 +752,37 @@
       "description": "- 45m Z1 HR"
     },
     {
-      "id": 106059179,
-      "date": "2026-05-03",
-      "name": "Progressive Long Run",
+      "id": 107204062,
+      "date": "2026-05-01",
+      "name": "Steady Endurance Ride",
       "type": "WORKOUT",
-      "planned_tss": 55,
+      "planned_tss": 45,
       "duration_hours": 1.25,
       "duration_formatted": "1h15m",
       "workout_summary": null,
-      "description": "- 55m Z1 HR\n- 15m Z2 HR\n- 5m Z1 HR"
+      "description": "- 10m 50-60% FTP\n- 55m 60-72% FTP\n- 10m 45-55% FTP"
+    },
+    {
+      "id": 106059176,
+      "date": "2026-05-02",
+      "name": "Run Threshold Support",
+      "type": "WORKOUT",
+      "planned_tss": 55,
+      "duration_hours": 1.08,
+      "duration_formatted": "1h5m",
+      "workout_summary": null,
+      "description": "- 15m Z1 HR\n\n3x\n- 8m Z4 HR\n- 3m Z1 HR\n\n- 10m Z1 HR\n\n4x\n- 20s 3:20-3:35/km Pace\n- 40s Z1 HR\n\n- 5m Z1 HR"
+    },
+    {
+      "id": 107204063,
+      "date": "2026-05-03",
+      "name": "Long Aerobic Run",
+      "type": "WORKOUT",
+      "planned_tss": 50,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
+      "workout_summary": null,
+      "description": "- 80m Z1 HR"
     }
   ],
   "workout_summary_stats": {
