@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-01T07:17:26.869106",
+    "last_updated": "2026-05-01T09:17:06.409682",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -303,7 +303,7 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.91,
+          "planned_tss_delta": 1.07,
           "hard_sessions_planned": 1,
           "race_proximity": null,
           "next_week_load": null,
@@ -341,7 +341,7 @@
     "p_max": 1169,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-01T07:17:26.868097",
+    "calculation_timestamp": "2026-05-01T09:17:06.408742",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -611,11 +611,11 @@
       "date": "2026-05-01",
       "name": "Steady Endurance Ride",
       "type": "WORKOUT",
-      "planned_tss": 50,
-      "duration_hours": 1.25,
-      "duration_formatted": "1h15m",
+      "planned_tss": 76,
+      "duration_hours": 1.83,
+      "duration_formatted": "1h50m",
       "workout_summary": null,
-      "description": "1x\n- 10m 50-60% FTP\n\n- 55m 60-72% FTP\n\n- 10m 45-55% FTP"
+      "description": "1x\n- 10m 50-60% FTP\n\n- 90m 60-72% FTP\n\n- 10m 45-55% FTP"
     },
     {
       "id": 106059176,
