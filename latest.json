@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-06T09:31:24.249423",
+    "last_updated": "2026-05-06T11:30:36.921837",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -310,7 +310,7 @@
         },
         "stream_2": {
           "planned_tss_delta": 0.94,
-          "hard_sessions_planned": 2,
+          "hard_sessions_planned": 3,
           "race_proximity": null,
           "next_week_load": null,
           "plan_coverage_current_week": 1.0,
@@ -347,7 +347,7 @@
     "p_max": 1163,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-06T09:31:24.248498",
+    "calculation_timestamp": "2026-05-06T11:30:36.921011",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -671,10 +671,10 @@
       "date": "2026-05-06",
       "name": "Bike Endurance Cadence",
       "type": "WORKOUT",
-      "planned_tss": 45,
+      "planned_tss": 46,
       "duration_hours": 1.17,
       "duration_formatted": "1h10m",
-      "workout_summary": null,
+      "workout_summary": "10m @156W | 5\u00d75m @195W / 2m rec | 15m @185W | 10m @142W",
       "description": "- 10m 50-60% FTP\n\n5x\n- 5m 65-72% FTP\n- 2m 50-60% FTP\n\n- 15m 60-70% FTP\n- 10m 45-55% FTP"
     },
     {
@@ -723,11 +723,11 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 1,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
-    "bail_no_workout_doc": 5,
+    "bail_no_workout_doc": 4,
     "bail_no_match": 0
   },
   "weekly_summary": {
