@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-07T12:22:01.805750",
+    "last_updated": "2026-05-07T15:15:09.065144",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -319,9 +319,9 @@
           "planned_tss_delta": 0.99,
           "hard_sessions_planned": 2,
           "race_proximity": null,
-          "next_week_load": null,
+          "next_week_load": 0.94,
           "plan_coverage_current_week": 0.8,
-          "plan_coverage_next_week": 0.0
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
         "stream_agreement": null
@@ -354,7 +354,7 @@
     "p_max": 1162,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 65.0,
-    "calculation_timestamp": "2026-05-07T12:22:01.327141",
+    "calculation_timestamp": "2026-05-07T15:15:09.064145",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -770,14 +770,90 @@
       "duration_formatted": "1h20m",
       "workout_summary": null,
       "description": "- 80m Z1 HR"
+    },
+    {
+      "id": 108754570,
+      "date": "2026-05-11",
+      "name": "Active Recovery Ride",
+      "type": "WORKOUT",
+      "planned_tss": 20,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "description": "- 45m 45-55% FTP"
+    },
+    {
+      "id": 108755264,
+      "date": "2026-05-12",
+      "name": "Run Speed Economy",
+      "type": "WORKOUT",
+      "planned_tss": 50,
+      "duration_hours": 1.0,
+      "duration_formatted": "1h",
+      "workout_summary": null,
+      "description": "Primary target: PACE\nHR cue: easy and recovery segments should stay mostly Z1 by feel/HR\n\n- 15m 4:45-5:15/km Pace\n\n10x\n- 1m 3:10-3:25/km Pace\n- 90s 5:00-6:00/km Pace\n\n- 20m 4:45-5:15/km Pace"
+    },
+    {
+      "id": 108754572,
+      "date": "2026-05-13",
+      "name": "Steady Endurance Ride",
+      "type": "WORKOUT",
+      "planned_tss": 55,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description": "- 15m 50-60% FTP\n- 65m 60-72% FTP\n- 10m 45-55% FTP"
+    },
+    {
+      "id": 108755265,
+      "date": "2026-05-14",
+      "name": "Easy Aerobic Run",
+      "type": "WORKOUT",
+      "planned_tss": 35,
+      "duration_hours": 0.92,
+      "duration_formatted": "55m",
+      "workout_summary": null,
+      "description": "Primary target: HR\nPace cue: 4:40-5:10/km only if HR remains Z1\n\n- 55m Z1 HR"
+    },
+    {
+      "id": 108755267,
+      "date": "2026-05-15",
+      "name": "Run Threshold Cruise Intervals",
+      "type": "WORKOUT",
+      "planned_tss": 76,
+      "duration_hours": 1.33,
+      "duration_formatted": "1h20m",
+      "workout_summary": "15m | 3\u00d710m / 3m rec | 10m | 6\u00d720s / 40s rec | 2 \u00d7 5m"
+    },
+    {
+      "id": 108754576,
+      "date": "2026-05-16",
+      "name": "Long Steady Endurance Ride",
+      "type": "WORKOUT",
+      "planned_tss": 70,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
+      "workout_summary": null,
+      "description_preview": "- 15m 50-60% FTP\n- 90m 60-72% FTP\n- 15m 45-55% FTP"
+    },
+    {
+      "id": 108755268,
+      "date": "2026-05-17",
+      "name": "Long Aerobic Run",
+      "type": "WORKOUT",
+      "planned_tss": 65,
+      "duration_hours": 1.58,
+      "duration_formatted": "1h35m",
+      "workout_summary": null,
+      "description_preview": "Primary target: HR\nPace cue: 4:45-5:15/km only if HR remains Z1\n- 95m Z1 HR"
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 2,
+    "success": 2,
+    "patternA": 2,
     "patternB": 0,
-    "bail_no_workout_doc": 3,
+    "bail_no_workout_doc": 9,
     "bail_no_match": 0
   },
   "weekly_summary": {
