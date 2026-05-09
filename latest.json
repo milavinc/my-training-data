@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-09T12:04:56.290922",
+    "last_updated": "2026-05-09T13:54:46.425732",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -63,7 +63,7 @@
       },
       "tsb": {
         "status": "green",
-        "value": -8.7
+        "value": -0.4
       }
     },
     "signal_summary": {
@@ -118,17 +118,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 45.32,
-      "atl": 53.97,
-      "tsb": -8.65,
-      "ramp_rate": 0.66,
+      "ctl": 43.56,
+      "atl": 43.98,
+      "tsb": -0.42,
+      "ramp_rate": -1.1,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 266.1,
-      "w_prime": 22302,
+      "eftp": 265.8,
+      "w_prime": 22279,
       "w_prime_kj": 22.3,
-      "p_max": 1161,
+      "p_max": 1160,
       "vo2max": 65.0,
       "sports": {
         "cycling": {
@@ -316,15 +316,15 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.15,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 0.75,
+          "hard_sessions_planned": 0,
           "race_proximity": null,
           "next_week_load": 0.94,
           "plan_coverage_current_week": 0.4,
           "plan_coverage_next_week": 1.4
         },
         "data_quality": "good",
-        "stream_agreement": null
+        "stream_agreement": false
       },
       "previous_phase": "Build",
       "phase_duration_weeks": 3,
@@ -348,13 +348,13 @@
       "benchmark_percentage": "+14.0%",
       "seasonal_expected": false
     },
-    "eftp": 266.1,
-    "w_prime": 22302,
+    "eftp": 265.8,
+    "w_prime": 22279,
     "w_prime_kj": 22.3,
-    "p_max": 1161,
+    "p_max": 1160,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 65.0,
-    "calculation_timestamp": "2026-05-09T12:04:56.290032",
+    "calculation_timestamp": "2026-05-09T13:54:46.424790",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -728,15 +728,15 @@
   ],
   "planned_workouts": [
     {
-      "id": 108467155,
+      "id": 108467153,
       "date": "2026-05-09",
-      "name": "Bike Tempo Endurance",
+      "name": "Easy Aerobic Run",
       "type": "WORKOUT",
-      "planned_tss": 75,
-      "duration_hours": 1.75,
-      "duration_formatted": "1h45m",
+      "planned_tss": 30,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
       "workout_summary": null,
-      "description": "- 15m 50-60% FTP\n\n3x\n- 10m 76-85% FTP\n- 5m 55-65% FTP\n\n- 35m 60-72% FTP\n- 10m 45-55% FTP"
+      "description": "- 45m Z1 HR"
     },
     {
       "id": 108467156,
