@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-10T19:47:01.207968",
+    "last_updated": "2026-05-10T20:57:55.699238",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -319,7 +319,7 @@
           "planned_tss_delta": 0.97,
           "hard_sessions_planned": 0,
           "race_proximity": null,
-          "next_week_load": 0.94,
+          "next_week_load": 0.95,
           "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 1.4
         },
@@ -354,7 +354,7 @@
     "p_max": 1158,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 65.0,
-    "calculation_timestamp": "2026-05-10T19:47:01.206961",
+    "calculation_timestamp": "2026-05-10T20:57:55.698322",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -784,15 +784,15 @@
       "description": "- 80m Z1 HR"
     },
     {
-      "id": 108754570,
+      "id": 109307528,
       "date": "2026-05-11",
-      "name": "Active Recovery Ride",
+      "name": "Endurance Ride With Controlled Hill Tempo",
       "type": "WORKOUT",
-      "planned_tss": 20,
-      "duration_hours": 0.75,
-      "duration_formatted": "45m",
+      "planned_tss": 85,
+      "duration_hours": 2.0,
+      "duration_formatted": "2h",
       "workout_summary": null,
-      "description": "- 45m 45-55% FTP"
+      "description": "Primary target: POWER\nHR/RPE cue: keep this aerobic enough that Tuesday run speed stays high-quality. Hill efforts are tempo/low sweet spot, not threshold or VO2. Stay seated and smooth; avoid low-cadence grinding.\n\n- 20m 50-65% FTP\n\n6x\n- 3m 80-90% FTP\n- 7m 50-65% FTP\n\n- 30m 60-72% FTP\n- 10m 45-55% FTP"
     },
     {
       "id": 108755264,
@@ -806,15 +806,15 @@
       "description": "Primary target: PACE\nHR cue: easy and recovery segments should stay mostly Z1 by feel/HR\n\n- 15m 4:45-5:15/km Pace\n\n10x\n- 1m 3:10-3:25/km Pace\n- 90s 5:00-6:00/km Pace\n\n- 20m 4:45-5:15/km Pace"
     },
     {
-      "id": 108754572,
+      "id": 109307530,
       "date": "2026-05-13",
-      "name": "Steady Endurance Ride",
+      "name": "Easy Recovery Ride",
       "type": "WORKOUT",
-      "planned_tss": 55,
-      "duration_hours": 1.5,
-      "duration_formatted": "1h30m",
+      "planned_tss": 25,
+      "duration_hours": 0.83,
+      "duration_formatted": "50m",
       "workout_summary": null,
-      "description": "- 15m 50-60% FTP\n- 65m 60-72% FTP\n- 10m 45-55% FTP"
+      "description": "Primary target: POWER\nHR/RPE cue: this is recovery support after Monday bike load and Tuesday run speed. Keep it easy.\n\n- 10m 45-55% FTP\n- 35m 50-62% FTP\n- 5m 45-55% FTP"
     },
     {
       "id": 108755265,
@@ -828,26 +828,26 @@
       "description": "Primary target: HR\nPace cue: 4:40-5:10/km only if HR remains Z1\n\n- 55m Z1 HR"
     },
     {
-      "id": 108755267,
+      "id": 109307531,
       "date": "2026-05-15",
       "name": "Run Threshold Cruise Intervals",
       "type": "WORKOUT",
-      "planned_tss": 76,
-      "duration_hours": 1.33,
-      "duration_formatted": "1h20m",
-      "workout_summary": "15m | 3\u00d710m / 3m rec | 10m | 6\u00d720s / 40s rec | 2 \u00d7 5m",
-      "description": "Primary target: HR\nPace cue: threshold should feel controlled; do not chase pace if HR/RPE is high\nStride cue: optional relaxed 4x20s after the main work, around 3:20-3:35/km if fresh\n\n- 15m Z1 HR\n\n3x\n- 10m Z4 HR\n- 3m Z1 HR\n\n- 10m Z1 HR\n\n6x\n- 20s 3:20-3:35/km Pace\n- 40s Z1 HR\n\n- 5m Z1 HR\n- 5m Z1 HR"
+      "planned_tss": 65,
+      "duration_hours": 1.25,
+      "duration_formatted": "1h15m",
+      "workout_summary": null,
+      "description": "Primary target: HR\nPace cue: threshold should feel controlled; do not chase pace if HR/RPE is high. No strides here because Tuesday already provides the speed/economy stimulus.\n\n- 15m Z1 HR\n\n3x\n- 10m Z4 HR\n- 3m Z1 HR\n\n- 21m Z1 HR"
     },
     {
-      "id": 108754576,
+      "id": 109307533,
       "date": "2026-05-16",
-      "name": "Long Steady Endurance Ride",
+      "name": "Steady Endurance Ride",
       "type": "WORKOUT",
-      "planned_tss": 70,
-      "duration_hours": 2.0,
-      "duration_formatted": "2h",
+      "planned_tss": 50,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
       "workout_summary": null,
-      "description": "- 15m 50-60% FTP\n- 90m 60-72% FTP\n- 15m 45-55% FTP"
+      "description": "Primary target: POWER\nHR/RPE cue: steady aerobic ride only; no extra climbs or tempo. Leave freshness for Sunday's long run.\n\n- 15m 50-60% FTP\n- 65m 60-72% FTP\n- 10m 45-55% FTP"
     },
     {
       "id": 108755268,
@@ -862,11 +862,11 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 0,
+    "success": 0,
+    "patternA": 0,
     "patternB": 0,
-    "bail_no_workout_doc": 7,
+    "bail_no_workout_doc": 8,
     "bail_no_match": 0
   },
   "weekly_summary": {
