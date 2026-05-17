@@ -1,92 +1,9 @@
 {
-  "generated_at": "2026-05-16T23:01:06.833639",
+  "generated_at": "2026-05-17T00:09:42.921148",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
   "activities": [
-    {
-      "activity_id": "i146645303",
-      "date": "2026-05-09",
-      "type": "Run",
-      "name": "Lede Hardlopen",
-      "interval_summary": [
-        "8x 5m8s 134bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "308s@134bpm84rpm",
-          "duration_secs": 302,
-          "avg_hr": 128,
-          "max_hr": 136,
-          "avg_cadence": 84.6457,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "308s@134bpm84rpm",
-          "duration_secs": 290,
-          "avg_hr": 134,
-          "max_hr": 138,
-          "avg_cadence": 85.227585,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "308s@134bpm84rpm",
-          "duration_secs": 294,
-          "avg_hr": 134,
-          "max_hr": 139,
-          "avg_cadence": 85.006805,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "308s@134bpm84rpm",
-          "duration_secs": 300,
-          "avg_hr": 137,
-          "max_hr": 141,
-          "avg_cadence": 84.59333,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "308s@134bpm84rpm",
-          "duration_secs": 304,
-          "avg_hr": 132,
-          "max_hr": 138,
-          "avg_cadence": 84.210526,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "308s@134bpm84rpm",
-          "duration_secs": 330,
-          "avg_hr": 135,
-          "max_hr": 143,
-          "avg_cadence": 83.7293,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "308s@134bpm84rpm",
-          "duration_secs": 341,
-          "avg_hr": 137,
-          "max_hr": 143,
-          "avg_cadence": 81.13636,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "308s@134bpm84rpm",
-          "duration_secs": 300,
-          "avg_hr": 136,
-          "max_hr": 145,
-          "avg_cadence": 84.59,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i147006874",
       "date": "2026-05-10",
