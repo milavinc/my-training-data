@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-05-29T11:49:26.527308",
+    "last_updated": "2026-05-29T16:00:52.983045",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -49,9 +49,9 @@
         "delta_bpm": -0.9
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "green",
+        "hours": 7.77,
+        "quality": 2
       },
       "acwr": {
         "status": "amber",
@@ -67,10 +67,10 @@
       }
     },
     "signal_summary": {
-      "green": 4,
+      "green": 5,
       "amber": 1,
       "red": 0,
-      "unavailable": 1
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Deload",
@@ -80,7 +80,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 4 green, 1 amber (threshold 2), 0 red.",
+    "reason": "P3 green light. 5 green, 1 amber (threshold 2), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -142,9 +142,9 @@
       "weight_kg": 71.0,
       "resting_hr": 46,
       "hrv": 68.0,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null
+      "sleep_quality": 2,
+      "sleep_hours": 7.77,
+      "sleep_formatted": "7h45m"
     }
   },
   "derived_metrics": {
@@ -309,7 +309,7 @@
     "p_max": 1140,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-05-29T11:49:26.526459",
+    "calculation_timestamp": "2026-05-29T16:00:52.982240",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -426,10 +426,10 @@
       "resting_hr": 46,
       "hrv_rmssd": 68.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 7.77,
+      "sleep_formatted": "7h45m",
+      "sleep_quality": 2,
+      "sleep_score": 89.0,
       "mental_energy": null,
       "fatigue": null,
       "soreness": null,
