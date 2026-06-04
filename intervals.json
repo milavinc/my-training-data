@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-04T18:30:08.962019",
+  "generated_at": "2026-06-04T20:35:42.645854",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
@@ -444,6 +444,25 @@
           "avg_hr": 153,
           "max_hr": 157,
           "avg_cadence": 84.09091,
+          "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i154399209",
+      "date": "2026-06-04",
+      "type": "Ride",
+      "name": "Bike 7000 Excite Live: Quick Start",
+      "interval_summary": [
+        "1x 1h15m 142bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "4545s@142bpm",
+          "duration_secs": 4545,
+          "avg_hr": 142,
+          "max_hr": 162,
           "zone": 2
         }
       ]
