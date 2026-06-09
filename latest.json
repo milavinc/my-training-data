@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-09T11:31:46.030872",
+    "last_updated": "2026-06-09T14:06:49.318091",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -69,10 +69,10 @@
       "unavailable": 0
     },
     "phase_context": {
-      "phase": "Deload",
-      "phase_week": 1,
-      "amber_threshold": 2,
-      "modifier_applied": "default"
+      "phase": "Build",
+      "phase_week": 0,
+      "amber_threshold": 3,
+      "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
     "modification": null,
@@ -114,10 +114,10 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 36.27,
-      "atl": 42.13,
-      "tsb": -5.86,
-      "ramp_rate": 2.84,
+      "ctl": 37.1,
+      "atl": 46.79,
+      "tsb": -9.69,
+      "ramp_rate": 3.66,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
@@ -283,19 +283,25 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": null,
+    "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 0,
+      "planned_days": 1,
       "completed_days": 2,
       "matched_days": 0,
-      "note": "No planned workouts in period"
+      "planned_dates": [
+        "2026-06-09"
+      ],
+      "completed_dates": [
+        "2026-06-04",
+        "2026-06-07"
+      ]
     },
     "phase_detection": {
-      "phase": "Deload",
-      "confidence": "medium",
+      "phase": "Build",
+      "confidence": "low",
       "reason_codes": [
         "HR_ONLY_MAJORITY",
-        "PLAN_GAP_NEXT_WEEK"
+        "BUILD_RESUMING_AFTER_DELOAD_TENTATIVE"
       ],
       "basis": {
         "stream_1": {
@@ -305,25 +311,25 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
+          "planned_tss_delta": 1.23,
           "hard_sessions_planned": 0,
           "race_proximity": null,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 1.0,
           "plan_coverage_next_week": 0.0
         },
         "data_quality": "mixed",
         "stream_agreement": null
       },
       "previous_phase": "Deload",
-      "phase_duration_weeks": 1,
+      "phase_duration_weeks": 0,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Deload",
+    "phase_detected": "Build",
     "phase_triggers": [
       "HR_ONLY_MAJORITY",
-      "PLAN_GAP_NEXT_WEEK"
+      "BUILD_RESUMING_AFTER_DELOAD_TENTATIVE"
     ],
     "seasonal_context": "Build / Early Race Season",
     "benchmark_indoor": {
@@ -346,13 +352,13 @@
     "p_max": 1133,
     "power_model_source": "wellness.sportInfo",
     "vo2max": 63.0,
-    "calculation_timestamp": "2026-06-09T11:31:45.534201",
+    "calculation_timestamp": "2026-06-09T14:06:49.317205",
     "data_quality": {
       "hrv_data_points": 6,
       "rhr_data_points": 7,
       "activities_7d": 6,
       "activities_28d": 15,
-      "planned_workouts_7d": 0,
+      "planned_workouts_7d": 1,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 87
@@ -754,14 +760,70 @@
       "vo2max": 63.0
     }
   ],
-  "planned_workouts": [],
+  "planned_workouts": [
+    {
+      "id": 115155886,
+      "date": "2026-06-09",
+      "name": "S11 Calm Padel",
+      "type": "WORKOUT",
+      "planned_tss": 35,
+      "duration_hours": 1.5,
+      "duration_formatted": "1h30m",
+      "workout_summary": null,
+      "description": "- 90m calm padel, controlled intensity, avoid repeated all-out points\nNOTE: Athlete-planned extra load after morning threshold run. Keep it calm; this is not a conditioning session."
+    },
+    {
+      "id": 115155887,
+      "date": "2026-06-10",
+      "name": "S11 AE-2 Z2 Bike Build",
+      "type": "WORKOUT",
+      "planned_tss": 91,
+      "duration_hours": 2.25,
+      "duration_formatted": "2h15m",
+      "workout_summary": null,
+      "description": "- 15m 45-55% FTP ramp-in\n- 105m 56-72% FTP Z2 endurance, smooth pressure\n- 15m 45-55% FTP cool-down\nNOTE: Build-phase aerobic load. Keep it controlled Z2 only; no tempo pulls or fast finish."
+    },
+    {
+      "id": 115155888,
+      "date": "2026-06-11",
+      "name": "S11 Easy Aerobic Run",
+      "type": "WORKOUT",
+      "planned_tss": 28,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "description": "- 45m easy aerobic run, Z1-low Z2, HR below 75% LTHR, RPE 2-3\n- Flat route preferred; relaxed cadence\nNOTE: Maintains run frequency and tissue loading without adding intensity."
+    },
+    {
+      "id": 115155889,
+      "date": "2026-06-12",
+      "name": "S11 AE-4 Recovery Spin",
+      "type": "WORKOUT",
+      "planned_tss": 22,
+      "duration_hours": 0.75,
+      "duration_formatted": "45m",
+      "workout_summary": null,
+      "description": "- 10m 45-55% FTP easy spin\n- 25m 50-60% FTP Z1 only, smooth cadence\n- 10m 40-50% FTP cool-down\nNOTE: Absorption day before longer Z2 ride. If legs are heavy, keep it shorter."
+    },
+    {
+      "id": 115155890,
+      "date": "2026-06-13",
+      "name": "S11 AE-3 Long Z2 Durability Ride",
+      "type": "WORKOUT",
+      "planned_tss": 101,
+      "duration_hours": 2.5,
+      "duration_formatted": "2h30m",
+      "workout_summary": null,
+      "description": "- 20m 45-55% FTP ramp-in\n- 115m 56-72% FTP Z2 endurance, steady fueling\n- 15m 45-55% FTP cool-down\nNOTE: Long aerobic base ride. Stay Z2 throughout; no fast finish. Fuel from the first hour."
+    }
+  ],
   "workout_summary_stats": {
-    "attempted": 0,
+    "attempted": 5,
     "success": 0,
     "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 0,
-    "bail_no_match": 0
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 7.18,
