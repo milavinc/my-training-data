@@ -1,57 +1,9 @@
 {
-  "generated_at": "2026-06-14T22:54:13.232677",
+  "generated_at": "2026-06-15T00:19:16.435980",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
   "activities": [
-    {
-      "activity_id": "i155007528",
-      "date": "2026-06-07",
-      "type": "Ride",
-      "name": "Gent Wegwielrennen",
-      "interval_summary": [
-        "1x 81s 345w"
-      ],
-      "intervals": [
-        {
-          "type": "RECOVERY",
-          "duration_secs": 4810,
-          "avg_power": 176,
-          "max_power": 563,
-          "avg_hr": 145,
-          "max_hr": 177,
-          "avg_cadence": 77.09521,
-          "zone": 2,
-          "training_load": 55.231144,
-          "decoupling": 0.82979023
-        },
-        {
-          "type": "WORK",
-          "label": "81s@345w81rpm",
-          "duration_secs": 81,
-          "avg_power": 345,
-          "max_power": 425,
-          "avg_hr": 166,
-          "max_hr": 178,
-          "avg_cadence": 80.604935,
-          "zone": 6,
-          "training_load": 3.0349307,
-          "decoupling": 0.27440417
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 5515,
-          "avg_power": 173,
-          "max_power": 634,
-          "avg_hr": 149,
-          "max_hr": 178,
-          "avg_cadence": 81.416,
-          "zone": 2,
-          "training_load": 58.088146,
-          "decoupling": 7.810824
-        }
-      ]
-    },
     {
       "activity_id": "i155493265",
       "date": "2026-06-08",
