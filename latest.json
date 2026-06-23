@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-06-23T15:56:30.625513",
+    "last_updated": "2026-06-23T18:06:42.049635",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -353,7 +353,7 @@
     "p_max": 1220,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-06-23T15:56:30.624632",
+    "calculation_timestamp": "2026-06-23T18:06:42.048776",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -416,7 +416,7 @@
       "id": "i159649324",
       "date": "2026-06-23T12:57:56",
       "type": "VirtualRide",
-      "name": "Indoorcycling",
+      "name": "Fitnessfiets",
       "duration_hours": 0.95,
       "distance_km": 27.15,
       "tss": 24,
