@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-29T14:11:32.649439",
+  "generated_at": "2026-06-29T17:12:54.263626",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
@@ -206,6 +206,42 @@
           "max_hr": 132,
           "avg_cadence": 75.78261,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i161248040",
+      "date": "2026-06-29",
+      "type": "Ride",
+      "name": "Lede Fietsen",
+      "interval_summary": [
+        "2x 10m30s 152bpm",
+        "1x 3m22s 160bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "630s@152bpm",
+          "duration_secs": 622,
+          "avg_hr": 147,
+          "max_hr": 161,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "630s@152bpm",
+          "duration_secs": 638,
+          "avg_hr": 157,
+          "max_hr": 166,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "202s@160bpm",
+          "duration_secs": 202,
+          "avg_hr": 160,
+          "max_hr": 165,
+          "zone": 4
         }
       ]
     }
