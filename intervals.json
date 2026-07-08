@@ -1,42 +1,71 @@
 {
-  "generated_at": "2026-07-07T23:38:42.579233",
+  "generated_at": "2026-07-08T14:32:10.291540",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
   "activities": [
     {
-      "activity_id": "i161370081",
-      "date": "2026-06-30",
-      "type": "Ride",
-      "name": "Aalst Fietsen",
+      "activity_id": "i163846377",
+      "date": "2026-07-08",
+      "type": "Run",
+      "name": "Lede Hardlopen",
       "interval_summary": [
-        "1x 15m31s 110bpm",
-        "1x 13m50s 118bpm",
-        "1x 7m1s 140bpm"
+        "5x 5m20s 137bpm",
+        "1x 2s 149bpm"
       ],
       "intervals": [
         {
           "type": "WORK",
-          "label": "931s@110bpm",
-          "duration_secs": 931,
-          "avg_hr": 110,
-          "max_hr": 148,
+          "label": "320s@137bpm82rpm",
+          "duration_secs": 308,
+          "avg_hr": 129,
+          "max_hr": 140,
+          "avg_cadence": 81.83766,
           "zone": 1
         },
         {
           "type": "WORK",
-          "label": "830s@118bpm",
-          "duration_secs": 830,
-          "avg_hr": 118,
-          "max_hr": 132,
+          "label": "320s@137bpm82rpm",
+          "duration_secs": 321,
+          "avg_hr": 135,
+          "max_hr": 146,
+          "avg_cadence": 82.53571,
           "zone": 1
         },
         {
           "type": "WORK",
-          "label": "421s@140bpm",
-          "duration_secs": 421,
-          "avg_hr": 140,
-          "max_hr": 159,
+          "label": "320s@137bpm82rpm",
+          "duration_secs": 320,
+          "avg_hr": 134,
+          "max_hr": 141,
+          "avg_cadence": 82.69355,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "320s@137bpm82rpm",
+          "duration_secs": 315,
+          "avg_hr": 141,
+          "max_hr": 147,
+          "avg_cadence": 81.66349,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "320s@137bpm82rpm",
+          "duration_secs": 334,
+          "avg_hr": 145,
+          "max_hr": 152,
+          "avg_cadence": 80.61656,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "2s@149bpm82rpm",
+          "duration_secs": 2,
+          "avg_hr": 149,
+          "max_hr": 149,
+          "avg_cadence": 82.0,
           "zone": 2
         }
       ]
