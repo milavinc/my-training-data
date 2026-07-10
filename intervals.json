@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T05:42:40.467974",
+  "generated_at": "2026-07-10T08:51:59.920047",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
@@ -67,6 +67,72 @@
           "max_hr": 149,
           "avg_cadence": 82.0,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i164382496",
+      "date": "2026-07-10",
+      "type": "Run",
+      "name": "Diksmuide Hardlopen",
+      "interval_summary": [
+        "5x 5m55s 128bpm",
+        "1x 2m18s 134bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "355s@128bpm81rpm",
+          "duration_secs": 348,
+          "avg_hr": 121,
+          "max_hr": 130,
+          "avg_cadence": 80.916664,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "355s@128bpm81rpm",
+          "duration_secs": 348,
+          "avg_hr": 125,
+          "max_hr": 130,
+          "avg_cadence": 81.9023,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "355s@128bpm81rpm",
+          "duration_secs": 354,
+          "avg_hr": 126,
+          "max_hr": 130,
+          "avg_cadence": 81.52542,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "355s@128bpm81rpm",
+          "duration_secs": 364,
+          "avg_hr": 132,
+          "max_hr": 143,
+          "avg_cadence": 79.90909,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "355s@128bpm81rpm",
+          "duration_secs": 359,
+          "avg_hr": 134,
+          "max_hr": 141,
+          "avg_cadence": 81.189415,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "138s@134bpm82rpm",
+          "duration_secs": 138,
+          "avg_hr": 134,
+          "max_hr": 137,
+          "avg_cadence": 81.86232,
+          "zone": 1
         }
       ]
     }
