@@ -1,75 +1,9 @@
 {
-  "generated_at": "2026-07-15T23:24:35.285929",
+  "generated_at": "2026-07-16T00:58:46.637971",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
   "activities": [
-    {
-      "activity_id": "i163846377",
-      "date": "2026-07-08",
-      "type": "Run",
-      "name": "Lede Hardlopen",
-      "interval_summary": [
-        "5x 5m20s 137bpm",
-        "1x 2s 149bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "320s@137bpm82rpm",
-          "duration_secs": 308,
-          "avg_hr": 129,
-          "max_hr": 140,
-          "avg_cadence": 81.83766,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "320s@137bpm82rpm",
-          "duration_secs": 321,
-          "avg_hr": 135,
-          "max_hr": 146,
-          "avg_cadence": 82.53571,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "320s@137bpm82rpm",
-          "duration_secs": 320,
-          "avg_hr": 134,
-          "max_hr": 141,
-          "avg_cadence": 82.69355,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "320s@137bpm82rpm",
-          "duration_secs": 315,
-          "avg_hr": 141,
-          "max_hr": 147,
-          "avg_cadence": 81.66349,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "320s@137bpm82rpm",
-          "duration_secs": 334,
-          "avg_hr": 145,
-          "max_hr": 152,
-          "avg_cadence": 80.61656,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "2s@149bpm82rpm",
-          "duration_secs": 2,
-          "avg_hr": 149,
-          "max_hr": 149,
-          "avg_cadence": 82.0,
-          "zone": 2
-        }
-      ]
-    },
     {
       "activity_id": "i164382496",
       "date": "2026-07-10",
