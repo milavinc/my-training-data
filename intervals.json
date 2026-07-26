@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-26T20:31:35.551251",
+  "generated_at": "2026-07-26T21:41:40.164642",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
@@ -731,6 +731,43 @@
           "avg_hr": 143,
           "max_hr": 146,
           "avg_cadence": 82.03718,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i169511836",
+      "date": "2026-07-26",
+      "type": "Ride",
+      "name": "Cuauht\u00e9moc Fietsen",
+      "interval_summary": [
+        "1x 2h29m 83bpm",
+        "1x 1h1m 91bpm",
+        "1x 1h8m 90bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "8942s@83bpm",
+          "duration_secs": 8942,
+          "avg_hr": 83,
+          "max_hr": 104,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "3695s@91bpm",
+          "duration_secs": 3695,
+          "avg_hr": 91,
+          "max_hr": 108,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "4137s@90bpm",
+          "duration_secs": 4137,
+          "avg_hr": 90,
+          "max_hr": 107,
           "zone": 1
         }
       ]
