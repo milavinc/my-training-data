@@ -1,120 +1,63 @@
 {
-  "generated_at": "2026-08-10T23:45:04.264914",
+  "generated_at": "2026-08-11T00:37:57.743592",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
   "activities": [
     {
-      "activity_id": "i172036516",
-      "date": "2026-08-03",
+      "activity_id": "i174559598",
+      "date": "2026-08-10",
       "type": "Run",
-      "name": "Palenque Hardlopen",
+      "name": "Isla Mujeres Hardlopen",
       "interval_summary": [
-        "1x 5m43s 125bpm",
-        "2x 4m24s 147bpm",
-        "5x 5m25s 145bpm",
-        "2x 6m34s 131bpm",
-        "1x 2m56s 151bpm"
+        "1x 10m4s 119bpm",
+        "2x 6m51s 133bpm",
+        "1x 2s 138bpm"
       ],
       "intervals": [
         {
           "type": "WORK",
-          "label": "343s@125bpm81rpm",
-          "duration_secs": 343,
-          "avg_hr": 125,
-          "max_hr": 149,
-          "avg_cadence": 81.23148,
+          "label": "604s@119bpm76rpm",
+          "duration_secs": 604,
+          "avg_hr": 119,
+          "max_hr": 129,
+          "avg_cadence": 76.4976,
           "zone": 1
         },
         {
-          "type": "WORK",
-          "label": "264s@147bpm87rpm",
-          "duration_secs": 265,
-          "avg_hr": 141,
-          "max_hr": 146,
-          "avg_cadence": 86.73585,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "264s@147bpm87rpm",
-          "duration_secs": 263,
-          "avg_hr": 152,
-          "max_hr": 160,
-          "avg_cadence": 87.357414,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "325s@145bpm83rpm",
-          "duration_secs": 343,
-          "avg_hr": 147,
-          "max_hr": 161,
-          "avg_cadence": 83.12698,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "325s@145bpm83rpm",
-          "duration_secs": 317,
-          "avg_hr": 143,
-          "max_hr": 153,
-          "avg_cadence": 81.933556,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "325s@145bpm83rpm",
-          "duration_secs": 345,
-          "avg_hr": 140,
-          "max_hr": 152,
-          "avg_cadence": 82.110146,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "394s@131bpm81rpm",
-          "duration_secs": 393,
+          "type": "RECOVERY",
+          "duration_secs": 1,
           "avg_hr": 128,
-          "max_hr": 135,
-          "avg_cadence": 80.9771,
+          "max_hr": 128,
+          "avg_cadence": 81.0,
           "zone": 1
         },
         {
           "type": "WORK",
-          "label": "394s@131bpm81rpm",
-          "duration_secs": 394,
-          "avg_hr": 134,
-          "max_hr": 153,
-          "avg_cadence": 80.4797,
+          "label": "411s@133bpm78rpm",
+          "duration_secs": 407,
+          "avg_hr": 133,
+          "max_hr": 138,
+          "avg_cadence": 78.184616,
           "zone": 1
         },
         {
           "type": "WORK",
-          "label": "325s@145bpm83rpm",
-          "duration_secs": 295,
-          "avg_hr": 147,
-          "max_hr": 156,
-          "avg_cadence": 84.95932,
-          "zone": 2
+          "label": "411s@133bpm78rpm",
+          "duration_secs": 415,
+          "avg_hr": 132,
+          "max_hr": 138,
+          "avg_cadence": 78.125,
+          "zone": 1
         },
         {
           "type": "WORK",
-          "label": "325s@145bpm83rpm",
-          "duration_secs": 326,
-          "avg_hr": 150,
-          "max_hr": 158,
-          "avg_cadence": 82.72756,
-          "zone": 2
-        },
-        {
-          "type": "WORK",
-          "label": "176s@151bpm84rpm",
-          "duration_secs": 176,
-          "avg_hr": 151,
-          "max_hr": 153,
-          "avg_cadence": 83.76136,
-          "zone": 2
+          "label": "2s@138bpm80rpm",
+          "duration_secs": 2,
+          "avg_hr": 138,
+          "max_hr": 138,
+          "avg_cadence": 79.5,
+          "zone": 1
         }
       ]
     }
