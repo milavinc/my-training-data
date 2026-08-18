@@ -1,66 +1,9 @@
 {
-  "generated_at": "2026-08-17T23:39:30.951170",
+  "generated_at": "2026-08-18T00:00:12.377351",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
   "activities": [
-    {
-      "activity_id": "i174559598",
-      "date": "2026-08-10",
-      "type": "Run",
-      "name": "Isla Mujeres Hardlopen",
-      "interval_summary": [
-        "1x 10m4s 119bpm",
-        "2x 6m51s 133bpm",
-        "1x 2s 138bpm"
-      ],
-      "intervals": [
-        {
-          "type": "WORK",
-          "label": "604s@119bpm76rpm",
-          "duration_secs": 604,
-          "avg_hr": 119,
-          "max_hr": 129,
-          "avg_cadence": 76.4976,
-          "zone": 1
-        },
-        {
-          "type": "RECOVERY",
-          "duration_secs": 1,
-          "avg_hr": 128,
-          "max_hr": 128,
-          "avg_cadence": 81.0,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "411s@133bpm78rpm",
-          "duration_secs": 407,
-          "avg_hr": 133,
-          "max_hr": 138,
-          "avg_cadence": 78.184616,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "411s@133bpm78rpm",
-          "duration_secs": 415,
-          "avg_hr": 132,
-          "max_hr": 138,
-          "avg_cadence": 78.125,
-          "zone": 1
-        },
-        {
-          "type": "WORK",
-          "label": "2s@138bpm80rpm",
-          "duration_secs": 2,
-          "avg_hr": 138,
-          "max_hr": 138,
-          "avg_cadence": 79.5,
-          "zone": 1
-        }
-      ]
-    },
     {
       "activity_id": "i175300547",
       "date": "2026-08-12",
