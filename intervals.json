@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-07T10:23:14.457635",
+  "generated_at": "2026-09-07T16:00:04.324159",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
@@ -570,6 +570,120 @@
           "avg_hr": 154,
           "max_hr": 168,
           "avg_cadence": 76.23743,
+          "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i184195763",
+      "date": "2026-09-07",
+      "type": "TrailRun",
+      "name": "Huyen Yen Minh Trail Run",
+      "interval_summary": [
+        "2x 7m53s 136bpm",
+        "6x 6m8s 140bpm",
+        "1x 9m11s 132bpm",
+        "1x 5m47s 156bpm",
+        "1x 1m42s 151bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "473s@136bpm79rpm",
+          "duration_secs": 466,
+          "avg_hr": 133,
+          "max_hr": 151,
+          "avg_cadence": 77.68274,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "368s@140bpm82rpm",
+          "duration_secs": 403,
+          "avg_hr": 138,
+          "max_hr": 157,
+          "avg_cadence": 80.537575,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "551s@132bpm77rpm",
+          "duration_secs": 551,
+          "avg_hr": 132,
+          "max_hr": 145,
+          "avg_cadence": 77.45322,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "368s@140bpm82rpm",
+          "duration_secs": 338,
+          "avg_hr": 138,
+          "max_hr": 150,
+          "avg_cadence": 81.63777,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "368s@140bpm82rpm",
+          "duration_secs": 373,
+          "avg_hr": 134,
+          "max_hr": 145,
+          "avg_cadence": 82.27848,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "368s@140bpm82rpm",
+          "duration_secs": 319,
+          "avg_hr": 138,
+          "max_hr": 148,
+          "avg_cadence": 83.0,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "368s@140bpm82rpm",
+          "duration_secs": 345,
+          "avg_hr": 140,
+          "max_hr": 148,
+          "avg_cadence": 81.2638,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "473s@136bpm79rpm",
+          "duration_secs": 479,
+          "avg_hr": 139,
+          "max_hr": 151,
+          "avg_cadence": 79.38066,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "368s@140bpm82rpm",
+          "duration_secs": 429,
+          "avg_hr": 153,
+          "max_hr": 166,
+          "avg_cadence": 80.592,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "347s@156bpm81rpm",
+          "duration_secs": 347,
+          "avg_hr": 156,
+          "max_hr": 169,
+          "avg_cadence": 81.40057,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "102s@151bpm80rpm",
+          "duration_secs": 102,
+          "avg_hr": 151,
+          "max_hr": 155,
+          "avg_cadence": 79.847824,
           "zone": 2
         }
       ]
