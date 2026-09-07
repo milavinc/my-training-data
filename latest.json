@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-09-07T00:16:24.664973",
+    "last_updated": "2026-09-07T05:07:06.710291",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -46,29 +46,29 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 63.5,
-        "delta_pct": null
+        "status": "green",
+        "value": 60.0,
+        "baseline_7d": 63.0,
+        "delta_pct": -4.8
       },
       "rhr": {
         "status": "green",
-        "value": 46,
-        "baseline_7d": 44.6,
-        "delta_bpm": 1.4
+        "value": 45,
+        "baseline_7d": 44.4,
+        "delta_bpm": 0.6
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "amber",
+        "hours": 8.88,
+        "quality": 3
       },
       "acwr": {
         "status": "amber",
         "value": 0.78
       },
       "ri": {
-        "status": "unavailable",
-        "value": null
+        "status": "green",
+        "value": 0.94
       },
       "tsb": {
         "status": "green",
@@ -76,27 +76,27 @@
       }
     },
     "signal_summary": {
-      "green": 2,
-      "amber": 1,
+      "green": 4,
+      "amber": 2,
       "red": 0,
-      "unavailable": 3
+      "unavailable": 0
     },
     "phase_context": {
-      "phase": "Recovery",
-      "phase_week": 1,
-      "amber_threshold": 2,
-      "modifier_applied": "default"
+      "phase": "Build",
+      "phase_week": 2,
+      "amber_threshold": 3,
+      "modifier_applied": "build_loosened"
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 2 green, 1 amber (threshold 2), 0 red.",
+    "reason": "P3 green light. 4 green, 2 amber (threshold 3), 0 red.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
-    "last_generated": "2026-07-12",
-    "age_days": 57,
-    "total_months": 16,
+    "last_generated": "2026-09-07",
+    "age_days": 0,
+    "total_months": 17,
     "history_confidence": "high"
   },
   "summary": {
@@ -174,21 +174,21 @@
     },
     "current_metrics": {
       "weight_kg": 71.0,
-      "resting_hr": 46,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null
+      "resting_hr": 45,
+      "hrv": 60.0,
+      "sleep_quality": 3,
+      "sleep_hours": 8.88,
+      "sleep_formatted": "8h53m"
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "hrv_baseline_7d": 63.5,
-    "rhr_baseline_7d": 44.6,
-    "hrv_baseline_28d": 62.6,
-    "rhr_baseline_28d": 45.9,
-    "latest_hrv": null,
-    "latest_rhr": 46,
+    "recovery_index": 0.94,
+    "hrv_baseline_7d": 63.0,
+    "rhr_baseline_7d": 44.4,
+    "hrv_baseline_28d": 62.5,
+    "rhr_baseline_28d": 45.8,
+    "latest_hrv": 60.0,
+    "latest_rhr": 45,
     "acwr": 0.78,
     "acwr_interpretation": "undertraining",
     "monotony": 1.06,
@@ -200,7 +200,7 @@
     "multi_sport_detected": true,
     "strain": 275.0,
     "stress_tolerance": 2.6,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 2.8,
     "tss_7d_total": 259.0,
     "tss_28d_total": 1336.0,
     "zone_distribution_7d": {
@@ -310,16 +310,16 @@
       "note": "No planned workouts in period"
     },
     "phase_detection": {
-      "phase": "Recovery",
+      "phase": "Build",
       "confidence": "medium",
       "reason_codes": [
-        "DECLINING_LOAD_NO_HARD_DAYS"
+        "NO_PLANNED_WORKOUTS"
       ],
       "basis": {
         "stream_1": {
-          "ctl_slope": -2.33,
+          "ctl_slope": 2.38,
           "acwr_trend": "falling",
-          "hard_day_pattern": 0.2,
+          "hard_day_pattern": 0.8,
           "weeks_available": 4
         },
         "stream_2": {
@@ -333,14 +333,14 @@
         "data_quality": "good",
         "stream_agreement": null
       },
-      "previous_phase": "Recovery",
-      "phase_duration_weeks": 1,
+      "previous_phase": "Build",
+      "phase_duration_weeks": 2,
       "dossier_declared": null,
       "dossier_agreement": null
     },
-    "phase_detected": "Recovery",
+    "phase_detected": "Build",
     "phase_triggers": [
-      "DECLINING_LOAD_NO_HARD_DAYS"
+      "NO_PLANNED_WORKOUTS"
     ],
     "seasonal_context": "Late Season / Transition",
     "benchmark_indoor": {
@@ -363,9 +363,9 @@
     "p_max": 1170,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-09-07T00:16:24.664107",
+    "calculation_timestamp": "2026-09-07T05:07:06.709342",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 7,
       "activities_28d": 30,
@@ -793,13 +793,13 @@
     {
       "date": "2026-09-07",
       "weight_kg": null,
-      "resting_hr": 46,
-      "hrv_rmssd": null,
+      "resting_hr": 45,
+      "hrv_rmssd": 60.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 8.88,
+      "sleep_formatted": "8h53m",
+      "sleep_quality": 3,
+      "sleep_score": 79.0,
       "mental_energy": null,
       "fatigue": null,
       "soreness": null,
@@ -821,8 +821,8 @@
     "total_training_formatted": "7h39m",
     "total_tss": 259,
     "activities_count": 7,
-    "avg_hrv": 63.5,
-    "avg_resting_hr": 44.6
+    "avg_hrv": 63.0,
+    "avg_resting_hr": 44.4
   },
   "race_calendar": {
     "next_race": null,
