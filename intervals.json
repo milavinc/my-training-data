@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-08T23:26:29.362609",
+  "generated_at": "2026-09-09T01:27:24.736735",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
@@ -590,6 +590,92 @@
           "avg_hr": 151,
           "max_hr": 155,
           "avg_cadence": 79.847824,
+          "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i184748354",
+      "date": "2026-09-09",
+      "type": "Run",
+      "name": "Hanoi Hardlopen",
+      "interval_summary": [
+        "1x 5m39s 116bpm",
+        "5x 4m50s 144bpm",
+        "1x 12m49s 141bpm",
+        "1x 3m35s 152bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "339s@116bpm81rpm",
+          "duration_secs": 339,
+          "avg_hr": 116,
+          "max_hr": 129,
+          "avg_cadence": 80.984375,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "290s@144bpm85rpm",
+          "duration_secs": 284,
+          "avg_hr": 134,
+          "max_hr": 143,
+          "avg_cadence": 85.82042,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "290s@144bpm85rpm",
+          "duration_secs": 285,
+          "avg_hr": 141,
+          "max_hr": 148,
+          "avg_cadence": 85.72281,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "290s@144bpm85rpm",
+          "duration_secs": 284,
+          "avg_hr": 148,
+          "max_hr": 152,
+          "avg_cadence": 85.58451,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "769s@141bpm84rpm",
+          "duration_secs": 769,
+          "avg_hr": 141,
+          "max_hr": 153,
+          "avg_cadence": 83.68627,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "290s@144bpm85rpm",
+          "duration_secs": 295,
+          "avg_hr": 146,
+          "max_hr": 152,
+          "avg_cadence": 84.1322,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "290s@144bpm85rpm",
+          "duration_secs": 301,
+          "avg_hr": 150,
+          "max_hr": 155,
+          "avg_cadence": 83.252495,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "215s@152bpm84rpm",
+          "duration_secs": 215,
+          "avg_hr": 152,
+          "max_hr": 156,
+          "avg_cadence": 84.102325,
           "zone": 2
         }
       ]
