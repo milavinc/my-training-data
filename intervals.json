@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T07:00:37.942042",
+  "generated_at": "2026-09-14T14:07:40.333733",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
@@ -754,6 +754,63 @@
           "max_hr": 152,
           "avg_cadence": 80.10256,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i186557581",
+      "date": "2026-09-14",
+      "type": "VirtualRun",
+      "name": "Hardlopen op een loopband",
+      "interval_summary": [
+        "4x 5m10s 125bpm",
+        "1x 4m11s 132bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "310s@125bpm79rpm",
+          "duration_secs": 315,
+          "avg_hr": 119,
+          "max_hr": 127,
+          "avg_cadence": 78.94603,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "310s@125bpm79rpm",
+          "duration_secs": 310,
+          "avg_hr": 127,
+          "max_hr": 132,
+          "avg_cadence": 78.3871,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "310s@125bpm79rpm",
+          "duration_secs": 316,
+          "avg_hr": 125,
+          "max_hr": 130,
+          "avg_cadence": 79.148735,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "310s@125bpm79rpm",
+          "duration_secs": 298,
+          "avg_hr": 130,
+          "max_hr": 134,
+          "avg_cadence": 79.59061,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "251s@132bpm80rpm",
+          "duration_secs": 251,
+          "avg_hr": 132,
+          "max_hr": 136,
+          "avg_cadence": 79.78884,
+          "zone": 1
         }
       ]
     }
