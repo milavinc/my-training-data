@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T14:58:20.760383",
+  "generated_at": "2026-09-22T18:46:25.276882",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
@@ -1045,6 +1045,223 @@
           "max_hr": 142,
           "avg_cadence": 84.076126,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i189309191",
+      "date": "2026-09-22",
+      "type": "Run",
+      "name": "Avondloop",
+      "interval_summary": [
+        "8x 5m18s 129bpm",
+        "1x 4m4s 135bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "318s@129bpm83rpm",
+          "duration_secs": 316,
+          "avg_hr": 121,
+          "max_hr": 132,
+          "avg_cadence": 82.25949,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "318s@129bpm83rpm",
+          "duration_secs": 318,
+          "avg_hr": 126,
+          "max_hr": 132,
+          "avg_cadence": 82.59434,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "318s@129bpm83rpm",
+          "duration_secs": 319,
+          "avg_hr": 128,
+          "max_hr": 134,
+          "avg_cadence": 82.10972,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "318s@129bpm83rpm",
+          "duration_secs": 320,
+          "avg_hr": 129,
+          "max_hr": 135,
+          "avg_cadence": 81.81563,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "318s@129bpm83rpm",
+          "duration_secs": 314,
+          "avg_hr": 131,
+          "max_hr": 137,
+          "avg_cadence": 82.85987,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "318s@129bpm83rpm",
+          "duration_secs": 319,
+          "avg_hr": 132,
+          "max_hr": 141,
+          "avg_cadence": 82.865204,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "318s@129bpm83rpm",
+          "duration_secs": 320,
+          "avg_hr": 133,
+          "max_hr": 142,
+          "avg_cadence": 83.09062,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "318s@129bpm83rpm",
+          "duration_secs": 320,
+          "avg_hr": 134,
+          "max_hr": 144,
+          "avg_cadence": 83.40312,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "244s@135bpm82rpm",
+          "duration_secs": 244,
+          "avg_hr": 135,
+          "max_hr": 138,
+          "avg_cadence": 82.0041,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i189258187",
+      "date": "2026-09-22",
+      "type": "Ride",
+      "name": "Gent - PM Easy Bike Commute 25km",
+      "interval_summary": [
+        "1x 5m 239w",
+        "2x 1m47s 264w",
+        "1x 81s 258w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2220,
+          "avg_power": 208,
+          "max_power": 797,
+          "avg_hr": 137,
+          "max_hr": 157,
+          "avg_cadence": 77.99713,
+          "zone": 2,
+          "training_load": 34.02724,
+          "decoupling": 6.895461
+        },
+        {
+          "type": "WORK",
+          "label": "300s@239w81rpm",
+          "duration_secs": 300,
+          "avg_power": 239,
+          "max_power": 337,
+          "avg_hr": 150,
+          "max_hr": 160,
+          "avg_cadence": 80.856186,
+          "zone": 3,
+          "training_load": 6.0581717,
+          "decoupling": 6.723396
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 116,
+          "avg_power": 245,
+          "max_power": 531,
+          "avg_hr": 150,
+          "max_hr": 157,
+          "avg_cadence": 83.64078,
+          "zone": 3,
+          "training_load": 1.8959242,
+          "decoupling": 17.520538
+        },
+        {
+          "type": "WORK",
+          "label": "107s@264w86rpm",
+          "duration_secs": 102,
+          "avg_power": 258,
+          "max_power": 310,
+          "avg_hr": 152,
+          "max_hr": 156,
+          "avg_cadence": 86.68627,
+          "zone": 4,
+          "training_load": 2.2327957,
+          "decoupling": -2.1313887
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 119,
+          "avg_power": 232,
+          "max_power": 388,
+          "avg_hr": 153,
+          "max_hr": 156,
+          "avg_cadence": 87.36134,
+          "zone": 3,
+          "training_load": 2.2858696,
+          "decoupling": -3.2035573
+        },
+        {
+          "type": "WORK",
+          "label": "107s@264w86rpm",
+          "duration_secs": 112,
+          "avg_power": 270,
+          "max_power": 400,
+          "avg_hr": 155,
+          "max_hr": 159,
+          "avg_cadence": 85.63393,
+          "zone": 4,
+          "training_load": 2.7715988,
+          "decoupling": -1.5635217
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 67,
+          "avg_power": 270,
+          "max_power": 460,
+          "avg_hr": 147,
+          "max_hr": 160,
+          "avg_cadence": 86.35897,
+          "zone": 4,
+          "training_load": 0.64553195
+        },
+        {
+          "type": "WORK",
+          "label": "81s@258w83rpm",
+          "duration_secs": 81,
+          "avg_power": 258,
+          "max_power": 417,
+          "avg_hr": 155,
+          "max_hr": 157,
+          "avg_cadence": 82.79012,
+          "zone": 4,
+          "training_load": 1.9014958,
+          "decoupling": 5.4013
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 156,
+          "avg_power": 248,
+          "max_power": 640,
+          "avg_hr": 153,
+          "max_hr": 159,
+          "avg_cadence": 78.89256,
+          "zone": 3,
+          "training_load": 2.756721,
+          "decoupling": 14.938603
         }
       ]
     }
