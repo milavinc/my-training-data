@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T00:27:17.554798",
+  "generated_at": "2026-10-04T06:15:59.759846",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
@@ -1093,6 +1093,39 @@
           "max_hr": 136,
           "avg_cadence": 83.44927,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i193235568",
+      "date": "2026-10-04",
+      "type": "Run",
+      "name": "Aalst Hardlopen",
+      "interval_summary": [
+        "1x 30m47s 123bpm",
+        "1x 3m10s 10:43",
+        "1x 2s 28:59"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "1847s@123bpm74rpm",
+          "duration_secs": 1847,
+          "avg_hr": 123,
+          "max_hr": 141,
+          "avg_cadence": 74.22794,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "190s@1.56mps3rpm",
+          "duration_secs": 190,
+          "avg_cadence": 2.694737
+        },
+        {
+          "type": "WORK",
+          "label": "2s@0.57mps",
+          "duration_secs": 2
         }
       ]
     }
