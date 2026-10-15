@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T14:27:01.639717",
+  "generated_at": "2026-10-15T18:34:17.350615",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
@@ -1614,6 +1614,59 @@
           "duration_secs": 347,
           "avg_hr": 106,
           "max_hr": 118,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i197663396",
+      "date": "2026-10-15",
+      "type": "EBikeRide",
+      "name": "Gent E-biken",
+      "interval_summary": [
+        "3x 9m41s 109bpm",
+        "1x 8m5s 114bpm",
+        "1x 7m4s 109bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "581s@109bpm",
+          "duration_secs": 573,
+          "avg_hr": 109,
+          "max_hr": 120,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "581s@109bpm",
+          "duration_secs": 589,
+          "avg_hr": 110,
+          "max_hr": 129,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "581s@109bpm",
+          "duration_secs": 582,
+          "avg_hr": 109,
+          "max_hr": 131,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "485s@114bpm",
+          "duration_secs": 485,
+          "avg_hr": 114,
+          "max_hr": 129,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "424s@109bpm",
+          "duration_secs": 424,
+          "avg_hr": 109,
+          "max_hr": 122,
           "zone": 1
         }
       ]
