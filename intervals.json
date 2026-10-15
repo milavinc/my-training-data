@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T09:43:34.284774",
+  "generated_at": "2026-10-15T14:27:01.639717",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
@@ -1557,6 +1557,63 @@
           "duration_secs": 5,
           "avg_hr": 113,
           "max_hr": 114,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i197554808",
+      "date": "2026-10-15",
+      "type": "EBikeRide",
+      "name": "Lede E-biken",
+      "interval_summary": [
+        "2x 7m47s 114bpm",
+        "2x 9m45s 108bpm",
+        "1x 5m47s 106bpm"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 2
+        },
+        {
+          "type": "WORK",
+          "label": "467s@114bpm",
+          "duration_secs": 483,
+          "avg_hr": 112,
+          "max_hr": 123,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "467s@114bpm",
+          "duration_secs": 450,
+          "avg_hr": 116,
+          "max_hr": 124,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "585s@108bpm",
+          "duration_secs": 604,
+          "avg_hr": 108,
+          "max_hr": 121,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "585s@108bpm",
+          "duration_secs": 565,
+          "avg_hr": 107,
+          "max_hr": 118,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "347s@106bpm",
+          "duration_secs": 347,
+          "avg_hr": 106,
+          "max_hr": 118,
           "zone": 1
         }
       ]
