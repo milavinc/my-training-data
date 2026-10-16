@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16T04:41:17.167577",
+  "generated_at": "2026-10-16T09:19:20.932398",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
@@ -1354,6 +1354,54 @@
           "max_hr": 145,
           "avg_cadence": 82.13448,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i197844613",
+      "date": "2026-10-16",
+      "type": "Ride",
+      "name": "Lede Wegwielrennen",
+      "interval_summary": [
+        "1x 15s 441w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 3191,
+          "avg_power": 182,
+          "max_power": 550,
+          "avg_hr": 125,
+          "max_hr": 145,
+          "avg_cadence": 73.88566,
+          "zone": 2,
+          "training_load": 37.012775,
+          "decoupling": -12.469657
+        },
+        {
+          "type": "WORK",
+          "label": "15s@441w77rpm",
+          "duration_secs": 15,
+          "avg_power": 441,
+          "max_power": 500,
+          "avg_hr": 129,
+          "max_hr": 131,
+          "avg_cadence": 77.4,
+          "zone": 7,
+          "training_load": 0.39076638,
+          "decoupling": 8.37388
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 244,
+          "avg_power": 195,
+          "max_power": 605,
+          "avg_hr": 134,
+          "max_hr": 147,
+          "avg_cadence": 71.016396,
+          "zone": 2,
+          "training_load": 4.26201,
+          "decoupling": 21.844316
         }
       ]
     }
