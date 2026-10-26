@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T17:35:47.302097",
+  "generated_at": "2026-10-26T21:54:47.254301",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
@@ -1704,6 +1704,162 @@
           "duration_secs": 504,
           "avg_hr": 104,
           "max_hr": 122,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i202030958",
+      "date": "2026-10-26",
+      "type": "VirtualRun",
+      "name": "Avondloop",
+      "interval_summary": [
+        "1x 1m48s 113bpm",
+        "8x 4m46s 124bpm",
+        "1x 3m48s 128bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "108s@113bpm82rpm",
+          "duration_secs": 108,
+          "avg_hr": 113,
+          "max_hr": 125,
+          "avg_cadence": 82.34259,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "286s@124bpm82rpm",
+          "duration_secs": 286,
+          "avg_hr": 121,
+          "max_hr": 129,
+          "avg_cadence": 82.38461,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 124,
+          "max_hr": 124,
+          "avg_cadence": 82.0,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "286s@124bpm82rpm",
+          "duration_secs": 280,
+          "avg_hr": 122,
+          "max_hr": 129,
+          "avg_cadence": 82.48929,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "286s@124bpm82rpm",
+          "duration_secs": 298,
+          "avg_hr": 122,
+          "max_hr": 130,
+          "avg_cadence": 83.28859,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "286s@124bpm82rpm",
+          "duration_secs": 270,
+          "avg_hr": 126,
+          "max_hr": 134,
+          "avg_cadence": 83.21852,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "286s@124bpm82rpm",
+          "duration_secs": 277,
+          "avg_hr": 126,
+          "max_hr": 132,
+          "avg_cadence": 83.50181,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "286s@124bpm82rpm",
+          "duration_secs": 281,
+          "avg_hr": 127,
+          "max_hr": 133,
+          "avg_cadence": 83.36655,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "286s@124bpm82rpm",
+          "duration_secs": 269,
+          "avg_hr": 127,
+          "max_hr": 134,
+          "avg_cadence": 83.20446,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "286s@124bpm82rpm",
+          "duration_secs": 329,
+          "avg_hr": 124,
+          "max_hr": 133,
+          "avg_cadence": 77.82993,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "228s@128bpm83rpm",
+          "duration_secs": 228,
+          "avg_hr": 128,
+          "max_hr": 132,
+          "avg_cadence": 83.29386,
+          "zone": 1
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1,
+          "avg_hr": 132,
+          "max_hr": 132,
+          "avg_cadence": 84.0,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i202030934",
+      "date": "2026-10-26",
+      "type": "EBikeRide",
+      "name": "Gent E-biken",
+      "interval_summary": [
+        "1x 9m38s 107bpm",
+        "1x 11m23s 103bpm",
+        "1x 7m19s 104bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "578s@107bpm",
+          "duration_secs": 578,
+          "avg_hr": 107,
+          "max_hr": 121,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "683s@103bpm",
+          "duration_secs": 683,
+          "avg_hr": 103,
+          "max_hr": 115,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "439s@104bpm",
+          "duration_secs": 439,
+          "avg_hr": 104,
+          "max_hr": 113,
           "zone": 1
         }
       ]
