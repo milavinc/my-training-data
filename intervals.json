@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T01:46:58.148923",
+  "generated_at": "2026-10-28T08:14:05.847537",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
@@ -1688,6 +1688,54 @@
           "avg_hr": 107,
           "max_hr": 123,
           "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i202628729",
+      "date": "2026-10-28",
+      "type": "Ride",
+      "name": "Lede - Woon-werk racefiets heen - 50 min lage Z2",
+      "interval_summary": [
+        "1x 2m50s 215w"
+      ],
+      "intervals": [
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1957,
+          "avg_power": 200,
+          "max_power": 520,
+          "avg_hr": 133,
+          "max_hr": 143,
+          "avg_cadence": 72.90528,
+          "zone": 2,
+          "training_load": 27.496363,
+          "decoupling": -1.4504457
+        },
+        {
+          "type": "WORK",
+          "label": "170s@215w77rpm",
+          "duration_secs": 170,
+          "avg_power": 215,
+          "max_power": 259,
+          "avg_hr": 137,
+          "max_hr": 144,
+          "avg_cadence": 77.49412,
+          "zone": 3,
+          "training_load": 2.6874082,
+          "decoupling": 0.95327455
+        },
+        {
+          "type": "RECOVERY",
+          "duration_secs": 1257,
+          "avg_power": 196,
+          "max_power": 490,
+          "avg_hr": 134,
+          "max_hr": 150,
+          "avg_cadence": 70.60302,
+          "zone": 2,
+          "training_load": 18.651285,
+          "decoupling": -3.0938816
         }
       ]
     }
