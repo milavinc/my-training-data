@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-01T13:49:51.834194",
+  "generated_at": "2026-11-01T18:50:24.301835",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
@@ -2120,6 +2120,45 @@
           "max_hr": 148,
           "avg_cadence": 83.0,
           "zone": 2
+        }
+      ]
+    },
+    {
+      "activity_id": "i204404335",
+      "date": "2026-11-01",
+      "type": "Run",
+      "name": "Berlare Hardlopen",
+      "interval_summary": [
+        "2x 5m29s 137bpm",
+        "1x 3s 142bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "329s@137bpm84rpm",
+          "duration_secs": 331,
+          "avg_hr": 133,
+          "max_hr": 139,
+          "avg_cadence": 84.703926,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "329s@137bpm84rpm",
+          "duration_secs": 326,
+          "avg_hr": 140,
+          "max_hr": 146,
+          "avg_cadence": 84.033745,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "3s@142bpm85rpm",
+          "duration_secs": 3,
+          "avg_hr": 142,
+          "max_hr": 143,
+          "avg_cadence": 85.0,
+          "zone": 1
         }
       ]
     }
