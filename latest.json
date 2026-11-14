@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-14T15:42:16.852666",
+    "last_updated": "2026-11-14T20:08:27.443173",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -341,8 +341,8 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 1.31,
-          "hard_sessions_planned": 1,
+          "planned_tss_delta": 1.35,
+          "hard_sessions_planned": 0,
           "race_proximity": 8,
           "next_week_load": null,
           "plan_coverage_current_week": 0.4,
@@ -382,7 +382,7 @@
     "p_max": 1169,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-14T15:42:16.669437",
+    "calculation_timestamp": "2026-11-14T20:08:27.442337",
     "data_quality": {
       "hrv_data_points": 7,
       "rhr_data_points": 7,
@@ -1308,13 +1308,13 @@
     {
       "id": 154370398,
       "date": "2026-11-15",
-      "name": "Zo \u2013 34 km specifiek: 3\u00d76 km MP / 1 km float",
+      "name": "Zo \u2013 32\u201334 km specifiek op lus van 8 km: 7+7+4/7 km MP",
       "type": "WORKOUT",
-      "planned_tss": 167,
-      "duration_hours": 2.36,
-      "duration_formatted": "2h21m28s",
-      "workout_summary": "38m18s | 2\u00d721m54s / 4m rec | 21m54s | 29m28s",
-      "description": "Functie: grootste specifieke prikkel van het blok + generale test fueling.\nVlak parcours op de weg (niet Heuvelland). Ontbijt en gels zoals in Valencia. FUELING 80 g KH/u, start na ~25 min, elke 20-25 min. Drink naar dorst + na elke gel.\nMP blok 1: 3:38-3:40/km. Floats 3:55-4:05.\nLACTAAT na blok 1 en blok 3 (protocol: reinigen + drogen, eerste druppel weg, niet knijpen, binnen 30 s).\n- Na blok 1 \u22642,6 en HR \u2264160 \u2192 blok 2-3 mogen op 3:35-3:37.\n- Na blok 1 2,6-3,0 \u2192 op 3:38-3:40 blijven.\n- Na blok 2 >3,2 (of HR-drift duidelijk) \u2192 blok 3 op 3:50 of inkorten tot 4 km.\nKuit/hamstring: pijn \u2192 MP stoppen, rustig uitlopen.\nNa afloop: eerst eten en drinken; heet bad max 30 min of overslaan.\n\nWarmup\n- 8km 4:40-4:55/km pace\n\nMain 2x\n- 6km 3:38-3:40/km pace\n- 1km 3:55-4:05/km pace\n\n- 6km 3:38-3:40/km pace\n\nCooldown\n- 6km 4:45-5:05/km pace"
+      "planned_tss": 173,
+      "duration_hours": 2.27,
+      "duration_formatted": "2h16m24s",
+      "workout_summary": null,
+      "description": "Functie: grootste specifieke prikkel van het blok + generale test fueling. Lus van acht kilometer = vast meet- en bevoorradingspunt elke ronde.\nSCHOENEN: ronde een in trainers; aan het lusstartpunt rustig wisselen naar de Valencia-raceschoenen voor de MP-blokken (MP-data moeten in raceschoenen zijn om naar de wedstrijd te vertalen). Pees reageert anders in de raceschoenen (>2/10) \u2192 terug naar trainers en MP op HR sturen.\nACHILLES-POORT ochtend: stappen pijnvrij en stijfheid niet erger dan de voorbije dagen \u2192 go. Anders: drie rondes rustig, geen MP. Tijdens: pijn >3/10 of stijgend \u2192 MP stoppen, ronde rustig uitlopen, stoppen.\nOntbijt en gels zoals in Valencia. FUELING 80 g KH/u: gel na ~25 min, daarna elke 20\u201325 min; bidon + gels bij het lusstartpunt.\nLACTAAT aan het lusstartpunt, binnen 30 s na het MP-blok (na ronde twee en drie). Protocol: reinigen + drogen, eerste druppel weg, niet knijpen. Bij >0,3 verschil: derde meting.\nBlok 1: 3:38\u20133:40/km. Wind: in tegenwind op HR sturen, niet op tempo.\nPoort na blok 1: lactaat \u22642,6 en HR \u2264160 \u2192 blok 2 en 3 op 3:35\u20133:37. Lactaat 2,6\u20133,0 \u2192 op 3:38\u20133:40 blijven.\nPoort na blok 2: >3,2 of duidelijke HR-drift \u2192 blok 3 op 3:50 of schrappen.\nBLOK 3 VOLLEDIG (zeven kilometer, totaal vierendertig) ALLEEN als na ronde drie: lactaat \u22642,8 en niet >0,4 gestegen t.o.v. blok 1, HR-drift blok 1\u21922 <3 %, achilles 0\u20131/10, fueling ok, RPE \u22646. Anders: vier kilometer MP, dan rustig uitlopen tot het einde van de ronde (totaal twee\u00ebndertig).\nNa het volledige blok 3: maximaal twee kilometer uitlopen.\nNa afloop: eerst eten en drinken; heet bad max 30 min of overslaan.\n\nRonde een rustig\n- 8km 4:40-4:55/km pace\n\nRonde twee float en MP\n- 1km 3:55-4:05/km pace\n- 7km 3:38-3:40/km pace\n\nRonde drie float en MP\n- 1km 3:55-4:05/km pace\n- 7km 3:35-3:40/km pace\n\nRonde vier float en MP volgens poort\n- 1km 3:55-4:05/km pace\n- 7km 3:35-3:40/km pace\n\nUitlopen\n- 2km 4:45-5:05/km pace"
     },
     {
       "id": 151818318,
@@ -1341,11 +1341,11 @@
   ],
   "workout_summary_stats": {
     "attempted": 2,
-    "success": 1,
-    "patternA": 1,
+    "success": 0,
+    "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 2,
-    "bail_no_match": 1
+    "bail_no_match": 2
   },
   "weekly_summary": {
     "total_training_hours": 13.62,
