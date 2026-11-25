@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-25T04:03:01.809736",
+    "last_updated": "2026-11-25T14:28:36.650034",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -46,29 +46,29 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 73.0,
-        "delta_pct": null
+        "status": "green",
+        "value": 72.0,
+        "baseline_7d": 72.9,
+        "delta_pct": -1.2
       },
       "rhr": {
         "status": "green",
-        "value": 43,
-        "baseline_7d": 43,
-        "delta_bpm": 0
+        "value": 42,
+        "baseline_7d": 42.9,
+        "delta_bpm": -0.9
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "green",
+        "hours": 7.9,
+        "quality": 1
       },
       "acwr": {
         "status": "green",
         "value": 0.88
       },
       "ri": {
-        "status": "unavailable",
-        "value": null
+        "status": "green",
+        "value": 1.01
       },
       "tsb": {
         "status": "green",
@@ -76,10 +76,10 @@
       }
     },
     "signal_summary": {
-      "green": 3,
+      "green": 6,
       "amber": 0,
       "red": 0,
-      "unavailable": 3
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Taper",
@@ -89,7 +89,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 3 green, 0 amber (threshold 1), 0 red.",
+    "reason": "P3 green light. 6 green, 0 amber (threshold 1), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -148,8 +148,8 @@
       "ctl": 77.61,
       "atl": 75.59,
       "tsb": 2.02,
-      "ramp_rate": -1.74,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ramp_rate": -0.22,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 258.7,
@@ -186,21 +186,21 @@
     },
     "current_metrics": {
       "weight_kg": 71.0,
-      "resting_hr": 43,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null
+      "resting_hr": 42,
+      "hrv": 72.0,
+      "sleep_quality": 1,
+      "sleep_hours": 7.9,
+      "sleep_formatted": "7h54m"
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "hrv_baseline_7d": 73.0,
-    "rhr_baseline_7d": 43,
+    "recovery_index": 1.01,
+    "hrv_baseline_7d": 72.9,
+    "rhr_baseline_7d": 42.9,
     "hrv_baseline_28d": 71.6,
     "rhr_baseline_28d": 42.7,
-    "latest_hrv": null,
-    "latest_rhr": 43,
+    "latest_hrv": 72.0,
+    "latest_rhr": 42,
     "acwr": 0.88,
     "acwr_interpretation": "optimal",
     "monotony": 1.5,
@@ -212,7 +212,7 @@
     "multi_sport_detected": true,
     "strain": 734.0,
     "stress_tolerance": 4.9,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 4.8,
     "tss_7d_total": 489.0,
     "tss_28d_total": 2232.0,
     "zone_distribution_7d": {
@@ -314,12 +314,19 @@
         "note": "Compares 7d vs 28d Seiler TID to detect distribution shifts. pi_delta positive = more polarized acutely."
       }
     },
-    "consistency_index": null,
+    "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 0,
+      "planned_days": 1,
       "completed_days": 3,
       "matched_days": 0,
-      "note": "No planned workouts in period"
+      "planned_dates": [
+        "2026-11-25"
+      ],
+      "completed_dates": [
+        "2026-11-21",
+        "2026-11-22",
+        "2026-11-24"
+      ]
     },
     "phase_detection": {
       "phase": "Taper",
@@ -336,11 +343,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
+          "planned_tss_delta": 0.18,
+          "hard_sessions_planned": 1,
           "race_proximity": 11,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
+          "plan_coverage_current_week": 0.2,
           "plan_coverage_next_week": 0.2
         },
         "data_quality": "mixed",
@@ -377,13 +384,13 @@
     "p_max": 1165,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-25T04:03:01.808322",
+    "calculation_timestamp": "2026-11-25T14:28:36.649242",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 15,
       "activities_28d": 60,
-      "planned_workouts_7d": 1,
+      "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 256
@@ -1203,13 +1210,13 @@
     {
       "date": "2026-11-25",
       "weight_kg": null,
-      "resting_hr": 43,
-      "hrv_rmssd": null,
+      "resting_hr": 42,
+      "hrv_rmssd": 72.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 7.9,
+      "sleep_formatted": "7h54m",
+      "sleep_quality": 1,
+      "sleep_score": 91.0,
       "mental_energy": null,
       "fatigue": null,
       "soreness": null,
@@ -1218,6 +1225,17 @@
     }
   ],
   "planned_workouts": [
+    {
+      "id": 160400370,
+      "date": "2026-11-25",
+      "name": "3\u00d73 km MP (laatste MP op de weg)",
+      "type": "WORKOUT",
+      "planned_tss": 70,
+      "duration_hours": 1.05,
+      "duration_formatted": "1h3m1s",
+      "workout_summary": "14m30s | 3\u00d710m57s / 2m rec | 9m40s",
+      "description": "Functie: laatste MP-sessie op de weg v\u00f3\u00f3r Valencia. Ritme, economie en HR op MP; pees testen op MP-snelheid.\nPoort: achilles bij eerste stappen 0-1/10 en niet stijver dan gisteren. Anders: 45 min rustig of crosstrainer.\nTempo 3:38-3:40, HR \u2264162. HR >163 bij 3:40 \u2192 3:42-3:44, niet forceren. Niet sneller dan MP.\nLactaat na blok 1 en 3 (doel 2,2-3,0), enkel >8 \u00b0C of binnen meten.\nStop: achilles >3/10 tijdens. Bij 2/10 \u2192 laatste blok schrappen.\nSchoen: Valencia-schoen als de pees bij de ochtendcheck 0/10 is, anders Superblast. Kies v\u00f3\u00f3r de start.\nNa afloop: eten + drinken, dan heet bad max 30-40 min, \u226590 min voor slapen.\n\nWarmup\n- 3km 4:50/km pace\n\nMain 3x\n- 3km 3:39/km pace\n- 2m intensity=rest\n\nCooldown\n- 2km 4:50/km pace"
+    },
     {
       "id": 151818320,
       "date": "2026-12-06",
@@ -1231,9 +1249,9 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 1,
+    "success": 1,
+    "patternA": 1,
     "patternB": 0,
     "bail_no_workout_doc": 1,
     "bail_no_match": 0
@@ -1243,8 +1261,8 @@
     "total_training_formatted": "12h3m",
     "total_tss": 489,
     "activities_count": 15,
-    "avg_hrv": 73.0,
-    "avg_resting_hr": 43.0
+    "avg_hrv": 72.9,
+    "avg_resting_hr": 42.9
   },
   "race_calendar": {
     "next_race": {
