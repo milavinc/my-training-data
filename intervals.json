@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-25T14:28:36.649873",
+  "generated_at": "2026-11-25T23:15:27.766026",
   "version": "3.83",
   "scan_hours": 72,
   "retention_days": 7,
@@ -749,6 +749,155 @@
           "avg_hr": 139,
           "max_hr": 141,
           "avg_cadence": 83.27586,
+          "zone": 1
+        }
+      ]
+    },
+    {
+      "activity_id": "i214632226",
+      "date": "2026-11-25",
+      "type": "Run",
+      "name": "Namiddagloop",
+      "interval_summary": [
+        "12x 4m50s 138bpm",
+        "1x 6m25s 128bpm",
+        "1x 7m28s 135bpm",
+        "1x 49s 128bpm"
+      ],
+      "intervals": [
+        {
+          "type": "WORK",
+          "label": "290s@138bpm85rpm",
+          "duration_secs": 303,
+          "avg_hr": 116,
+          "max_hr": 127,
+          "avg_cadence": 83.67987,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "290s@138bpm85rpm",
+          "duration_secs": 293,
+          "avg_hr": 120,
+          "max_hr": 125,
+          "avg_cadence": 82.71672,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "290s@138bpm85rpm",
+          "duration_secs": 298,
+          "avg_hr": 122,
+          "max_hr": 132,
+          "avg_cadence": 82.87584,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "290s@138bpm85rpm",
+          "duration_secs": 279,
+          "avg_hr": 146,
+          "max_hr": 152,
+          "avg_cadence": 88.52688,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "290s@138bpm85rpm",
+          "duration_secs": 280,
+          "avg_hr": 150,
+          "max_hr": 154,
+          "avg_cadence": 88.13928,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "385s@128bpm69rpm",
+          "duration_secs": 385,
+          "avg_hr": 128,
+          "max_hr": 155,
+          "avg_cadence": 69.34771,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "290s@138bpm85rpm",
+          "duration_secs": 281,
+          "avg_hr": 146,
+          "max_hr": 156,
+          "avg_cadence": 88.48754,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "290s@138bpm85rpm",
+          "duration_secs": 280,
+          "avg_hr": 153,
+          "max_hr": 158,
+          "avg_cadence": 88.65,
+          "zone": 2
+        },
+        {
+          "type": "WORK",
+          "label": "290s@138bpm85rpm",
+          "duration_secs": 309,
+          "avg_hr": 139,
+          "max_hr": 161,
+          "avg_cadence": 80.0,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "290s@138bpm85rpm",
+          "duration_secs": 284,
+          "avg_hr": 145,
+          "max_hr": 157,
+          "avg_cadence": 86.78521,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "290s@138bpm85rpm",
+          "duration_secs": 279,
+          "avg_hr": 156,
+          "max_hr": 160,
+          "avg_cadence": 88.17204,
+          "zone": 3
+        },
+        {
+          "type": "WORK",
+          "label": "448s@135bpm62rpm",
+          "duration_secs": 448,
+          "avg_hr": 135,
+          "max_hr": 160,
+          "avg_cadence": 61.60491,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "290s@138bpm85rpm",
+          "duration_secs": 308,
+          "avg_hr": 130,
+          "max_hr": 139,
+          "avg_cadence": 83.21429,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "290s@138bpm85rpm",
+          "duration_secs": 290,
+          "avg_hr": 130,
+          "max_hr": 134,
+          "avg_cadence": 82.965515,
+          "zone": 1
+        },
+        {
+          "type": "WORK",
+          "label": "49s@128bpm63rpm",
+          "duration_secs": 49,
+          "avg_hr": 128,
+          "max_hr": 131,
+          "avg_cadence": 62.816326,
           "zone": 1
         }
       ]
