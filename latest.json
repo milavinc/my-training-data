@@ -8,15 +8,15 @@
     "readiness_decision_note": "The 'readiness_decision' block contains a pre-computed go/modify/skip recommendation with priority level (P0=safety, P1=overload, P2=fatigue, P3=green), individual signal statuses, phase-adjusted thresholds, and structured modification guidance. Use this as the baseline for pre-workout recommendations. Override with explanation in the coach note if the AI's contextual judgment disagrees.",
     "zone_preference": "default (power preferred, HR fallback)",
     "quick_stats": {
-      "total_training_hours": 13.21,
-      "total_training_formatted": "13h12m",
-      "total_activities": 16,
-      "total_tss": 574
+      "total_training_hours": 12.12,
+      "total_training_formatted": "12h7m",
+      "total_activities": 15,
+      "total_tss": 530
     }
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-25T23:15:27.974301",
+    "last_updated": "2026-11-26T05:21:04.747638",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -33,10 +33,10 @@
     },
     {
       "metric": "race_taper",
-      "value": 11,
+      "value": 10,
       "severity": "info",
       "threshold": "RACE_A within 8-14 days",
-      "context": "RACE_A 'Valencia Marathon' in 11 days. Begin volume reduction (target 41-60% over 2 weeks). Maintain intensity. CTL should peak now or within the next few days.",
+      "context": "RACE_A 'Valencia Marathon' in 10 days. Begin volume reduction (target 41-60% over 2 weeks). Maintain intensity. CTL should peak now or within the next few days.",
       "persistence_days": null,
       "tier": 1
     }
@@ -46,40 +46,40 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "green",
-        "value": 72.0,
-        "baseline_7d": 72.9,
-        "delta_pct": -1.2
+        "status": "unavailable",
+        "value": null,
+        "baseline_7d": 72.8,
+        "delta_pct": null
       },
       "rhr": {
         "status": "green",
-        "value": 42,
-        "baseline_7d": 42.9,
-        "delta_bpm": -0.9
+        "value": 44,
+        "baseline_7d": 43,
+        "delta_bpm": 1
       },
       "sleep": {
-        "status": "green",
-        "hours": 7.9,
-        "quality": 1
+        "status": "unavailable",
+        "hours": null,
+        "quality": null
       },
       "acwr": {
         "status": "green",
-        "value": 0.99
+        "value": 0.93
       },
       "ri": {
-        "status": "green",
-        "value": 1.01
+        "status": "unavailable",
+        "value": null
       },
       "tsb": {
         "status": "green",
-        "value": -7.3
+        "value": 2.4
       }
     },
     "signal_summary": {
-      "green": 6,
+      "green": 3,
       "amber": 0,
       "red": 0,
-      "unavailable": 0
+      "unavailable": 3
     },
     "phase_context": {
       "phase": "Taper",
@@ -89,21 +89,21 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 6 green, 0 amber (threshold 1), 0 red.",
+    "reason": "P3 green light. 3 green, 0 amber (threshold 1), 0 red.",
     "alarm_refs": []
   },
   "history": {
     "available": true,
     "last_generated": "2026-10-12",
-    "age_days": 44,
+    "age_days": 45,
     "total_months": 19,
     "history_confidence": "high"
   },
   "summary": {
     "period_description": "Last 7 days of training (including today)",
     "note": "Duration calculated from API moving_time field.",
-    "total_duration_decimal_hours": 13.21,
-    "total_activities": 16,
+    "total_duration_decimal_hours": 12.12,
+    "total_activities": 15,
     "by_activity_type": {
       "EBikeRide": {
         "duration_decimal_hours": 1.5,
@@ -112,9 +112,9 @@
         "distance_km": 49.9
       },
       "Elliptical": {
-        "duration_decimal_hours": 3.29,
-        "count": 3,
-        "tss": 157,
+        "duration_decimal_hours": 2.21,
+        "count": 2,
+        "tss": 113,
         "distance_km": 0.0
       },
       "Run": {
@@ -145,17 +145,17 @@
   },
   "current_status": {
     "fitness": {
-      "ctl": 79.61,
-      "atl": 86.9,
-      "tsb": -7.29,
-      "ramp_rate": 0.26,
+      "ctl": 77.74,
+      "atl": 75.33,
+      "tsb": 2.41,
+      "ramp_rate": -0.79,
       "fitness_source": "From Intervals.icu API (reflects completed workouts)"
     },
     "thresholds": {
-      "eftp": 259.0,
-      "w_prime": 20939,
+      "eftp": 258.7,
+      "w_prime": 20918,
       "w_prime_kj": 20.9,
-      "p_max": 1166,
+      "p_max": 1165,
       "vo2max": null,
       "sports": {
         "cycling": {
@@ -186,58 +186,58 @@
     },
     "current_metrics": {
       "weight_kg": 71.0,
-      "resting_hr": 42,
-      "hrv": 72.0,
-      "sleep_quality": 1,
-      "sleep_hours": 7.9,
-      "sleep_formatted": "7h54m"
+      "resting_hr": 44,
+      "hrv": null,
+      "sleep_quality": null,
+      "sleep_hours": null,
+      "sleep_formatted": null
     }
   },
   "derived_metrics": {
-    "recovery_index": 1.01,
-    "hrv_baseline_7d": 72.9,
-    "rhr_baseline_7d": 42.9,
-    "hrv_baseline_28d": 71.6,
+    "recovery_index": null,
+    "hrv_baseline_7d": 72.8,
+    "rhr_baseline_7d": 43,
+    "hrv_baseline_28d": 71.3,
     "rhr_baseline_28d": 42.7,
-    "latest_hrv": 72.0,
-    "latest_rhr": 42,
-    "acwr": 0.99,
+    "latest_hrv": null,
+    "latest_rhr": 44,
+    "acwr": 0.93,
     "acwr_interpretation": "optimal",
-    "monotony": 2.34,
-    "monotony_interpretation": "normal (primary sport 0.92, total 2.34 inflated by multi-sport)",
+    "monotony": 1.67,
+    "monotony_interpretation": "normal (primary sport 0.92, total 1.67 inflated by multi-sport)",
     "primary_sport": "run",
     "primary_sport_monotony": 0.92,
     "primary_sport_tss_7d": 247.0,
     "effective_monotony": 0.92,
     "multi_sport_detected": true,
-    "strain": 1343.0,
-    "stress_tolerance": 5.7,
-    "load_recovery_ratio": 5.7,
-    "tss_7d_total": 574.0,
-    "tss_28d_total": 2317.0,
+    "strain": 885.0,
+    "stress_tolerance": 5.3,
+    "load_recovery_ratio": null,
+    "tss_7d_total": 530.0,
+    "tss_28d_total": 2287.0,
     "zone_distribution_7d": {
-      "z1_hours": 8.86,
+      "z1_hours": 7.78,
       "z2_hours": 3.66,
       "z3_hours": 0.74,
       "z4_plus_hours": 0.04,
-      "total_hours": 13.31,
+      "total_hours": 12.22,
       "zone_basis": "mixed"
     },
-    "grey_zone_percentage": 5.6,
+    "grey_zone_percentage": 6.1,
     "grey_zone_note": "Gray Zone % (Z3/tempo) - minimize in polarized training",
-    "quality_intensity_percentage": 0.3,
+    "quality_intensity_percentage": 0.4,
     "quality_intensity_note": "Quality Intensity % (Z4+/threshold+) - target ~20% in polarized training",
     "polarisation_index": 0.94,
     "polarisation_note": "Easy time (Z1+Z2) / Total - target ~80% in polarized training",
     "hard_days_this_week": 0,
     "hard_days_note": "Power ladder: z3+ >= 30min, z4+ >= 10min, z5+ >= 5min, z6+ >= 2min, z7 >= 1min. HR fallback (when no power): z4+ >= 10min, z5+ >= 5min. Per Seiler 3-zone model + Foster. HR-based days flagged with intensity_basis: hr",
     "seiler_tid_7d": {
-      "z1_seconds": 45074,
+      "z1_seconds": 41162,
       "z2_seconds": 2675,
       "z3_seconds": 160,
-      "z1_pct": 94.1,
-      "z2_pct": 5.6,
-      "z3_pct": 0.3,
+      "z1_pct": 93.6,
+      "z2_pct": 6.1,
+      "z3_pct": 0.4,
       "polarization_index": null,
       "classification": "Base",
       "zone_basis": "mixed"
@@ -255,12 +255,12 @@
       "sport": "run"
     },
     "seiler_tid_28d": {
-      "z1_seconds": 164329,
+      "z1_seconds": 159305,
       "z2_seconds": 7047,
       "z3_seconds": 8890,
-      "z1_pct": 91.2,
-      "z2_pct": 3.9,
-      "z3_pct": 4.9,
+      "z1_pct": 90.9,
+      "z2_pct": 4.0,
+      "z3_pct": 5.1,
       "polarization_index": 2.06,
       "classification": "Polarized",
       "zone_basis": "mixed"
@@ -343,11 +343,11 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": 0.18,
-          "hard_sessions_planned": 1,
-          "race_proximity": 11,
+          "planned_tss_delta": null,
+          "hard_sessions_planned": 0,
+          "race_proximity": 10,
           "next_week_load": null,
-          "plan_coverage_current_week": 0.2,
+          "plan_coverage_current_week": 0.0,
           "plan_coverage_next_week": 0.2
         },
         "data_quality": "mixed",
@@ -378,22 +378,22 @@
       "benchmark_percentage": null,
       "seasonal_expected": null
     },
-    "eftp": 259.0,
-    "w_prime": 20939,
+    "eftp": 258.7,
+    "w_prime": 20918,
     "w_prime_kj": 20.9,
-    "p_max": 1166,
+    "p_max": 1165,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-25T23:15:27.765450",
+    "calculation_timestamp": "2026-11-26T05:21:04.746619",
     "data_quality": {
-      "hrv_data_points": 7,
+      "hrv_data_points": 6,
       "rhr_data_points": 7,
-      "activities_7d": 16,
-      "activities_28d": 61,
+      "activities_7d": 15,
+      "activities_28d": 59,
       "planned_workouts_7d": 2,
       "ftp_history_days": {
         "indoor": 0,
-        "outdoor": 256
+        "outdoor": 257
       }
     }
   },
@@ -1108,70 +1108,9 @@
         }
       },
       "has_intervals": true
-    },
-    {
-      "id": "i212181672",
-      "date": "2026-11-19T18:17:20",
-      "type": "Elliptical",
-      "name": "Crosstrainer",
-      "duration_hours": 1.09,
-      "distance_km": 0.0,
-      "tss": 44,
-      "intensity_factor": 63.68939,
-      "avg_power": null,
-      "normalized_power": null,
-      "avg_hr": 131,
-      "max_hr": 147,
-      "avg_cadence": 74.50804,
-      "avg_speed": null,
-      "max_speed": null,
-      "avg_pace": null,
-      "avg_temp": null,
-      "weather": null,
-      "humidity": null,
-      "wind_speed": null,
-      "work_kj": null,
-      "calories": 651,
-      "carbs_used": null,
-      "carbs_ingested": null,
-      "variability_index": null,
-      "decoupling": null,
-      "efficiency_factor": null,
-      "hrrc": null,
-      "elevation_m": null,
-      "feel": null,
-      "rpe": null,
-      "zone_distribution": {
-        "hr_zones": {
-          "z1_time": 3906,
-          "z2_time": 6,
-          "z3_time": 0,
-          "z4_time": 0,
-          "z5_time": 0,
-          "z6_time": 0,
-          "z7_time": 0
-        }
-      },
-      "has_intervals": false
     }
   ],
   "wellness_data": [
-    {
-      "date": "2026-11-19",
-      "weight_kg": null,
-      "resting_hr": 43,
-      "hrv_rmssd": 73.0,
-      "hrv_sdnn": null,
-      "sleep_hours": 8.25,
-      "sleep_formatted": "8h15m",
-      "sleep_quality": 1,
-      "sleep_score": 95.0,
-      "mental_energy": null,
-      "fatigue": null,
-      "soreness": null,
-      "avg_sleeping_hr": null,
-      "vo2max": null
-    },
     {
       "date": "2026-11-20",
       "weight_kg": null,
@@ -1267,20 +1206,25 @@
       "soreness": null,
       "avg_sleeping_hr": null,
       "vo2max": null
+    },
+    {
+      "date": "2026-11-26",
+      "weight_kg": null,
+      "resting_hr": 44,
+      "hrv_rmssd": null,
+      "hrv_sdnn": null,
+      "sleep_hours": null,
+      "sleep_formatted": null,
+      "sleep_quality": null,
+      "sleep_score": null,
+      "mental_energy": null,
+      "fatigue": null,
+      "soreness": null,
+      "avg_sleeping_hr": null,
+      "vo2max": null
     }
   ],
   "planned_workouts": [
-    {
-      "id": 160400370,
-      "date": "2026-11-25",
-      "name": "3\u00d73 km MP (laatste MP op de weg)",
-      "type": "WORKOUT",
-      "planned_tss": 70,
-      "duration_hours": 1.05,
-      "duration_formatted": "1h3m1s",
-      "workout_summary": "14m30s | 3\u00d710m57s / 2m rec | 9m40s",
-      "description": "Functie: laatste MP-sessie op de weg v\u00f3\u00f3r Valencia. Ritme, economie en HR op MP; pees testen op MP-snelheid.\nPoort: achilles bij eerste stappen 0-1/10 en niet stijver dan gisteren. Anders: 45 min rustig of crosstrainer.\nTempo 3:38-3:40, HR \u2264162. HR >163 bij 3:40 \u2192 3:42-3:44, niet forceren. Niet sneller dan MP.\nLactaat na blok 1 en 3 (doel 2,2-3,0), enkel >8 \u00b0C of binnen meten.\nStop: achilles >3/10 tijdens. Bij 2/10 \u2192 laatste blok schrappen.\nSchoen: Valencia-schoen als de pees bij de ochtendcheck 0/10 is, anders Superblast. Kies v\u00f3\u00f3r de start.\nNa afloop: eten + drinken, dan heet bad max 30-40 min, \u226590 min voor slapen.\n\nWarmup\n- 3km 4:50/km pace\n\nMain 3x\n- 3km 3:39/km pace\n- 2m intensity=rest\n\nCooldown\n- 2km 4:50/km pace"
-    },
     {
       "id": 151818320,
       "date": "2026-12-06",
@@ -1294,20 +1238,20 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 1,
-    "success": 1,
-    "patternA": 1,
+    "attempted": 0,
+    "success": 0,
+    "patternA": 0,
     "patternB": 0,
     "bail_no_workout_doc": 1,
     "bail_no_match": 0
   },
   "weekly_summary": {
-    "total_training_hours": 13.21,
-    "total_training_formatted": "13h12m",
-    "total_tss": 574,
-    "activities_count": 16,
-    "avg_hrv": 72.9,
-    "avg_resting_hr": 42.9
+    "total_training_hours": 12.12,
+    "total_training_formatted": "12h7m",
+    "total_tss": 530,
+    "activities_count": 15,
+    "avg_hrv": 72.8,
+    "avg_resting_hr": 43.0
   },
   "race_calendar": {
     "next_race": {
@@ -1315,7 +1259,7 @@
       "date": "2026-12-06",
       "category": "RACE_A",
       "type": "Run",
-      "days_until": 11,
+      "days_until": 10,
       "moving_time_seconds": null,
       "distance_meters": 42195.0
     },
@@ -1325,7 +1269,7 @@
         "date": "2026-12-06",
         "category": "RACE_A",
         "type": "Run",
-        "days_until": 11,
+        "days_until": 10,
         "moving_time_seconds": null,
         "distance_meters": 42195.0
       }
@@ -1334,8 +1278,8 @@
       "active": true,
       "event_name": "Valencia Marathon",
       "event_date": "2026-12-06",
-      "days_until": 11,
-      "message": "RACE_A 'Valencia Marathon' in 11 days. Begin volume reduction (target 41-60% over 2 weeks). Maintain intensity. CTL should peak now or within the next few days."
+      "days_until": 10,
+      "message": "RACE_A 'Valencia Marathon' in 10 days. Begin volume reduction (target 41-60% over 2 weeks). Maintain intensity. CTL should peak now or within the next few days."
     },
     "race_week": {
       "active": false
