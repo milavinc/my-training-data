@@ -16,7 +16,7 @@
   },
   "metadata": {
     "athlete_id": "REDACTED",
-    "last_updated": "2026-11-28T01:37:37.245540",
+    "last_updated": "2026-11-28T09:28:45.037122",
     "data_range_days": 7,
     "extended_range_days": 28,
     "version": "3.83"
@@ -46,29 +46,29 @@
     "priority": 3,
     "signals": {
       "hrv": {
-        "status": "unavailable",
-        "value": null,
-        "baseline_7d": 74.3,
-        "delta_pct": null
+        "status": "green",
+        "value": 79.0,
+        "baseline_7d": 75.0,
+        "delta_pct": 5.3
       },
       "rhr": {
         "status": "green",
-        "value": 44,
-        "baseline_7d": 43.1,
-        "delta_bpm": 0.9
+        "value": 42,
+        "baseline_7d": 42.9,
+        "delta_bpm": -0.9
       },
       "sleep": {
-        "status": "unavailable",
-        "hours": null,
-        "quality": null
+        "status": "green",
+        "hours": 8.08,
+        "quality": 1
       },
       "acwr": {
         "status": "green",
         "value": 0.84
       },
       "ri": {
-        "status": "unavailable",
-        "value": null
+        "status": "green",
+        "value": 1.08
       },
       "tsb": {
         "status": "green",
@@ -76,10 +76,10 @@
       }
     },
     "signal_summary": {
-      "green": 3,
+      "green": 6,
       "amber": 0,
       "red": 0,
-      "unavailable": 3
+      "unavailable": 0
     },
     "phase_context": {
       "phase": "Taper",
@@ -89,7 +89,7 @@
     },
     "race_week_defers": false,
     "modification": null,
-    "reason": "P3 green light. 3 green, 0 amber (threshold 1), 0 red.",
+    "reason": "P3 green light. 6 green, 0 amber (threshold 1), 0 red.",
     "alarm_refs": []
   },
   "history": {
@@ -136,8 +136,8 @@
       "ctl": 76.88,
       "atl": 69.46,
       "tsb": 7.42,
-      "ramp_rate": -1.61,
-      "fitness_source": "From Intervals.icu API (reflects completed workouts)"
+      "ramp_rate": -0.22,
+      "fitness_source": "Decayed from yesterday (today's planned workouts not yet completed)"
     },
     "thresholds": {
       "eftp": 258.4,
@@ -174,21 +174,21 @@
     },
     "current_metrics": {
       "weight_kg": 71.0,
-      "resting_hr": 44,
-      "hrv": null,
-      "sleep_quality": null,
-      "sleep_hours": null,
-      "sleep_formatted": null
+      "resting_hr": 42,
+      "hrv": 79.0,
+      "sleep_quality": 1,
+      "sleep_hours": 8.08,
+      "sleep_formatted": "8h5m"
     }
   },
   "derived_metrics": {
-    "recovery_index": null,
-    "hrv_baseline_7d": 74.3,
-    "rhr_baseline_7d": 43.1,
-    "hrv_baseline_28d": 72.0,
-    "rhr_baseline_28d": 42.7,
-    "latest_hrv": null,
-    "latest_rhr": 44,
+    "recovery_index": 1.08,
+    "hrv_baseline_7d": 75.0,
+    "rhr_baseline_7d": 42.9,
+    "hrv_baseline_28d": 72.2,
+    "rhr_baseline_28d": 42.6,
+    "latest_hrv": 79.0,
+    "latest_rhr": 42,
     "acwr": 0.84,
     "acwr_interpretation": "optimal",
     "monotony": 1.51,
@@ -200,7 +200,7 @@
     "multi_sport_detected": true,
     "strain": 737.0,
     "stress_tolerance": 4.9,
-    "load_recovery_ratio": null,
+    "load_recovery_ratio": 4.5,
     "tss_7d_total": 488.0,
     "tss_28d_total": 2333.0,
     "zone_distribution_7d": {
@@ -304,12 +304,13 @@
     },
     "consistency_index": 0.0,
     "consistency_details": {
-      "planned_days": 2,
+      "planned_days": 3,
       "completed_days": 3,
       "matched_days": 0,
       "planned_dates": [
         "2026-11-25",
-        "2026-11-27"
+        "2026-11-27",
+        "2026-11-28"
       ],
       "completed_dates": [
         "2026-11-22",
@@ -332,12 +333,12 @@
           "weeks_available": 4
         },
         "stream_2": {
-          "planned_tss_delta": null,
-          "hard_sessions_planned": 0,
+          "planned_tss_delta": 0.37,
+          "hard_sessions_planned": 1,
           "race_proximity": 8,
-          "next_week_load": null,
-          "plan_coverage_current_week": 0.0,
-          "plan_coverage_next_week": 0.2
+          "next_week_load": 0.12,
+          "plan_coverage_current_week": 0.4,
+          "plan_coverage_next_week": 1.4
         },
         "data_quality": "mixed",
         "stream_agreement": false
@@ -373,13 +374,13 @@
     "p_max": 1164,
     "power_model_source": "wellness.sportInfo",
     "vo2max": null,
-    "calculation_timestamp": "2026-11-28T01:37:37.244438",
+    "calculation_timestamp": "2026-11-28T09:28:45.036384",
     "data_quality": {
-      "hrv_data_points": 6,
+      "hrv_data_points": 7,
       "rhr_data_points": 7,
       "activities_7d": 12,
       "activities_28d": 60,
-      "planned_workouts_7d": 3,
+      "planned_workouts_7d": 4,
       "ftp_history_days": {
         "indoor": 0,
         "outdoor": 259
@@ -1064,13 +1065,13 @@
     {
       "date": "2026-11-28",
       "weight_kg": null,
-      "resting_hr": 44,
-      "hrv_rmssd": null,
+      "resting_hr": 42,
+      "hrv_rmssd": 79.0,
       "hrv_sdnn": null,
-      "sleep_hours": null,
-      "sleep_formatted": null,
-      "sleep_quality": null,
-      "sleep_score": null,
+      "sleep_hours": 8.08,
+      "sleep_formatted": "8h5m",
+      "sleep_quality": 1,
+      "sleep_score": 91.0,
       "mental_energy": null,
       "fatigue": null,
       "soreness": null,
@@ -1079,6 +1080,94 @@
     }
   ],
   "planned_workouts": [
+    {
+      "id": 161531562,
+      "date": "2026-11-28",
+      "name": "Crosstrainer 40\u2032 Z1 + lichte kracht (zonder kuiten)",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description": "Functie: aeroob onderhoud zonder impact + kracht onderhouden zonder de kuiten/achilles te vermoeien voor de MP-sessie zondag.\nCrosstrainer HR \u2264130 = HARD plafond. Geen bad.\n\nKracht daarna (~20\u2032, RPE 6, nooit tot falen):\n- Copenhagen plank 2\u00d720\u201330\u2033/kant\n- Pallof press hold 2\u00d730\u2033/kant\n- Bulgarian split squat hold MET HIEL NEER (niet op voorvoet) 2\u00d730\u2033/been\n- Hamstring bridge hold 1 been 2\u00d720\u201330\u2033/been, licht\nNIET vandaag: zware calf hold, soleus-isometrie, split squat op voorvoet \u2192 die schuiven naar ma 30/11.\n\n- 40m 110-130bpm"
+    },
+    {
+      "id": 161531563,
+      "date": "2026-11-29",
+      "name": "Generale repetitie Koksijde \u2013 2\u00d75 km MP",
+      "type": "WORKOUT",
+      "planned_tss": 59,
+      "duration_hours": 1.09,
+      "duration_formatted": "1h5m34s",
+      "workout_summary": "12m42s | 2\u00d718m5s / 2m rec | 12m42s",
+      "description": "Functie: LAATSTE ZWARE PRIKKEL (D-7) + validatie weg-MP + generale repetitie.\nRepetitie: ontbijt ~8u (3 u vooraf), Adizero Pro 4, gel ~25\u2032 (voor blok 1) en ~50\u2032.\nDoel: 3:36\u20133:38/km \u00b7 HR \u2264158 blok 1, \u2264160 einde blok 2 \u00b7 lactaat 2,2\u20133,0.\nMeetmoment lactaat: na blok 1 en na blok 2, in de auto (meter <8 \u00b0C buiten spec).\nWind: elk blok 2,5 km heen / 2,5 km terug; bij tegenwind op HR sturen.\nPoorten: achilles 2/10 in inlopen \u2192 2\u00d73 km \u00b7 \u22653/10 \u2192 geen MP \u00b7 HR >162 aan 3:37 of lactaat >3,2 na blok 1 \u2192 blok 2 = 3 km.\nNoteer: HR-drift blok 1 vs 2, achillesscore, maag.\n\nWarmup\n- 3km 125-140bpm\n\nMain 2x\n- 5km 3:36-3:38/km pace\n- 2m 4:40-5:15/km pace\n\nCooldown\n- 3km 125-140bpm"
+    },
+    {
+      "id": 161531564,
+      "date": "2026-11-30",
+      "name": "Rollen 40\u2032 Z1 + kracht-onderhoud + bad",
+      "type": "WORKOUT",
+      "planned_tss": 21,
+      "duration_hours": 0.67,
+      "duration_formatted": "40m",
+      "workout_summary": null,
+      "description": "Functie: herstel/supercompensatie. Geen lopen.\nRollen HR \u2264125.\nDaarna kracht-onderhoud (laatste krachtprikkel): calf hold gestrekte knie 3\u00d730\u2033 + zittende soleus 3\u00d730\u2033, zwaar, RPE 6\u20137.\nBad 40\u2032 op 40 \u00b0C, daarna 0,5\u20131 l met natrium.\n\n- 40m 150-170w"
+    },
+    {
+      "id": 161531565,
+      "date": "2026-12-01",
+      "name": "12 km met 3\u00d72 km MP (weg)",
+      "type": "WORKOUT",
+      "planned_tss": 38,
+      "duration_hours": 0.89,
+      "duration_formatted": "53m6s",
+      "workout_summary": "12m42s | 3\u00d77m14s / 2m rec | 12m42s",
+      "description": "Functie: tempogevoel behouden, tweede weg-check van MP-HR.\nDoel: 3:37/km \u00b7 HR \u2264158 \u00b7 lactaat na blok 3 \u22642,8 (optioneel, binnen meten).\nPoort: achilles \u22653/10 \u2192 rustig 8 km.\n\nWarmup\n- 3km 125-140bpm\n\nMain 3x\n- 2km 3:36-3:38/km pace\n- 2m 4:40-5:15/km pace\n\nCooldown\n- 3km 125-140bpm"
+    },
+    {
+      "id": 161531566,
+      "date": "2026-12-02",
+      "name": "8 km rustig + 3\u00d71\u2032 MP + 2 strides + laatste bad",
+      "type": "WORKOUT",
+      "planned_tss": 9,
+      "duration_hours": 0.57,
+      "duration_formatted": "34m24s",
+      "workout_summary": "16m56s | 3\u00d71m / 2m rec | 8m28s",
+      "description": "Functie: scherpte voor de reis.\nRustig HR \u2264135, MP 3:35\u20133:38. Daarna 2\u00d720\u2033 strides.\nBad 30\u2032 op 40 \u00b0C (LAATSTE), daarna 0,5\u20131 l met natrium. Vanaf nu geen kracht en geen baden meer.\n\nWarmup\n- 4km 125-135bpm\n\nMain 3x\n- 1m 3:35-3:38/km pace\n- 2m 4:40-5:15/km pace\n\nCooldown\n- 2km 125-135bpm"
+    },
+    {
+      "id": 161531567,
+      "date": "2026-12-03",
+      "name": "Reisdag \u2013 20\u201330\u2032 joggen",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 0.42,
+      "duration_formatted": "25m",
+      "workout_summary": null,
+      "description": "Functie: benen los rond de reis. Voor de vlucht of 's avonds in Valencia.\nHR \u2264130. Veel drinken, tijdens de vlucht opstaan en rondwandelen. Normale KH-inname.\n\n- 25m 120-130bpm"
+    },
+    {
+      "id": 161531568,
+      "date": "2026-12-04",
+      "name": "6 km rustig + 3 strides \u00b7 START CARBO-LOADING",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 0.42,
+      "duration_formatted": "25m24s",
+      "workout_summary": null,
+      "description": "Functie: activatie na de reis.\nHR \u2264135, daarna 3\u00d720\u2033 strides.\nCarbo-loading vr + za: 570\u2013710 g KH/dag (8\u201310 g/kg bij 71 kg), weinig vezels, verdeeld over 5\u20136 momenten.\n\n- 6km 125-135bpm"
+    },
+    {
+      "id": 161531569,
+      "date": "2026-12-05",
+      "name": "Shakeout 20\u2032 + 3 strides",
+      "type": "WORKOUT",
+      "planned_tss": null,
+      "duration_hours": 0.33,
+      "duration_formatted": "20m",
+      "workout_summary": null,
+      "description": "Functie: activatie, liefst rond het startuur. Optioneel 2\u00d720\u2033 calf hold licht.\nCarbo-loading dag 2: 570\u2013710 g KH. Vroeg slapen, kleren en gels klaarleggen.\n\n- 20m 120-135bpm"
+    },
     {
       "id": 151818320,
       "date": "2026-12-06",
@@ -1092,20 +1181,20 @@
     }
   ],
   "workout_summary_stats": {
-    "attempted": 0,
-    "success": 0,
-    "patternA": 0,
+    "attempted": 8,
+    "success": 3,
+    "patternA": 3,
     "patternB": 0,
     "bail_no_workout_doc": 1,
-    "bail_no_match": 0
+    "bail_no_match": 5
   },
   "weekly_summary": {
     "total_training_hours": 9.49,
     "total_training_formatted": "9h29m",
     "total_tss": 488,
     "activities_count": 12,
-    "avg_hrv": 74.3,
-    "avg_resting_hr": 43.1
+    "avg_hrv": 75.0,
+    "avg_resting_hr": 42.9
   },
   "race_calendar": {
     "next_race": {
